@@ -15,6 +15,7 @@ import { route } from '../../i18n/routes';
   </head>
   <body class="bg-white p-2 text-navy-900">
     <CheckFinder client:load role="teacher" methodHref={`${SITE_URL}${route('method', 'en')}`} />
-    <p class="mt-2 text-center text-xs text-navy-600"><a href={`${SITE_URL}/en/`} target="_blank" rel="noopener" class="underline">{SITE_NAMES.en}</a> · fees from legislation.gov.uk, GOV.UK, Disclosure Scotland and nidirect (Open Government Licence), worked out in your browser</p>
+    <p class="mt-2 text-center text-xs text-navy-600"><a href={`${SITE_URL}/en/`} target="_blank" rel="noopener" class="underline">{SITE_NAMES.en}</a> · fees from legislation.gov.uk, GOV.UK, Disclosure Scotland and nidirect (Open Government Licence), worked out in your browser. This is not a DBS or government site.</p>
+    <p class="mt-1 text-center text-xs text-navy-600">Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="license noopener" class="underline">Open Government Licence v3.0</a>.</p>
   </body>
 </html>

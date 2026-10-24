@@ -13,8 +13,10 @@ Sources lues (toutes Crown copyright, Open Government Licence v3.0) :
   4. GOV.UK Content API : dates de mise à jour des 6 guides d'éligibilité DBS.
 
 Les barèmes de Disclosure Scotland et d'AccessNI n'ont pas d'API : ils sont dans src/data/fees.json avec
-leur URL et leur date de lecture ; ce script vérifie seulement que les pages répondent et contiennent
+leur URL et leur date de lecture ; ce script vérifie que les pages répondent et contiennent
 encore les montants (alerte sinon, jamais de mise à jour silencieuse).
+  5. nidirect « Costs and turnaround times » : le script relit la semaine et les délais moyens
+     d'AccessNI (fees.json > northernIreland.turnaround), publiés chaque semaine.
 
 Usage : python3 scripts/update-data.py [--out data]
 Sort en erreur (code 1) si un montant officiel lu ne correspond plus à src/data/fees.json :
@@ -119,6 +121,29 @@ def main():
                     errors.append(f'{nation} : « {n} » absent de {url}')
         except Exception as e:  # page bloquée : on garde le chiffre daté, on signale
             errors.append(f'{nation} : lecture impossible ({e})')
+
+    # 6. AccessNI : délais hebdomadaires relus sur nidirect (tableau « Week beginning … »).
+    #    La semaine et les moyennes affichées viennent de cette lecture, jamais d'une saisie.
+    try:
+        ni = fees['northernIreland']
+        t = text(get(ni['source']))
+        wk = re.search(r'Week beginning (\d{1,2} [A-Z][a-z]+ 20\d\d)', t)
+        rows = {
+            'basic': r'Basic \(Application made through Responsible Body\) .*? (\d+) days?',
+            'standard': r'Standard 99 per cent within seven days (\d+) days?',
+            'enhanced': r'Enhanced 70 per cent within 10 days 95 per cent within 21 days 98 per cent within 28 days (\d+) days?',
+        }
+        found = {k: re.search(pat, t) for k, pat in rows.items()}
+        if not wk or not all(found.values()):
+            errors.append('northernIreland : tableau des délais AccessNI introuvable ou changé (cibles modifiées ?)')
+        else:
+            week = datetime.datetime.strptime(wk.group(1), '%d %B %Y').date().isoformat()
+            ni['turnaround']['week'] = week
+            ni['turnaround']['averageDays'] = {k: int(m.group(1)) for k, m in found.items()}
+            ni['turnaround']['readOn'] = datetime.date.today().isoformat()
+            print('AccessNI : semaine du', week, ni['turnaround']['averageDays'])
+    except Exception as e:
+        errors.append(f'northernIreland : délais illisibles ({e})')
 
     fees['checkedOn'] = datetime.date.today().isoformat()
     json.dump(fees, open(os.path.join(OUT, 'fees.json'), 'w'), indent=1, ensure_ascii=False)

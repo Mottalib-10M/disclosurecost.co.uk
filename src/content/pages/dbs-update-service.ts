@@ -6,7 +6,7 @@ export default definePage({
   order: 30,
   tool: { kind: 'mini:update', props: { level: 3, years: 3, per: 1, admin: 0 } },
   related: ['dbs-check-renewal', 'dbs-certificate', 'dbs-check-for-self-employed', 'dbs-check-for-taxi-drivers'],
-  sources: ['gov_update', 'gov_update_employer', 'si_2026_985', 'gov_dataset1', 'gov_employer'],
+  sources: ['gov_update', 'gov_update_employer', 'si_2026_985', 'gov_dataset1', 'gov_employer', 'police_perf'],
   slug: 'dbs-update-service',
   nav: 'DBS Update Service',
   card: '£15 a year, 30 days to join: when the subscription beats a new check.',

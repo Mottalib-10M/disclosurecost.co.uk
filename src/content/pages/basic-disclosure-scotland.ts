@@ -6,7 +6,7 @@ export default definePage({
   order: 62,
   tool: { kind: 'mini:basicwhere', props: { nation: 2 } },
   related: ['basic-dbs-check', 'pvg-scheme', 'access-ni-check', 'criminal-record-check-uk'],
-  sources: ['ds_basic', 'ds_levels', 'ds_fees', 'ds_q1'],
+  sources: ['ds_basic', 'ds_levels', 'ds_fees', 'ds_q1', 'police_perf'],
   slug: 'basic-disclosure-scotland',
   nav: 'Basic disclosure Scotland',
   card: 'The Level 1 disclosure that replaced the basic disclosure: £25, online, digital.',

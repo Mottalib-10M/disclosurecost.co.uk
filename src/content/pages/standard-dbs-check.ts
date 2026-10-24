@@ -6,7 +6,7 @@ export default definePage({
   order: 21,
   tool: { kind: 'mini:roles', props: { role: 'solicitor' } },
   related: ['which-dbs-check-do-i-need', 'enhanced-dbs-check', 'what-shows-on-a-dbs-check', 'dbs-eligibility'],
-  sources: ['gov_elig_standard', 'gov_apply_role', 'gov_employer', 'gov_filtering'],
+  sources: ['gov_elig_standard', 'gov_apply_role', 'gov_employer', 'gov_filtering', 'police_perf'],
   slug: 'standard-dbs-check',
   nav: 'Standard DBS check',
   card: 'The listed professions and licences that get a standard check, and what it shows.',

@@ -29,7 +29,7 @@ const jsonLd = [articleSchema({ title: page.h1, description: page.description, p
 if (page.tool) jsonLd.push(webApplicationSchema({ name: page.h1, description: page.description, path, lang }));
 if (faqs.length) jsonLd.push(faqSchema(faqs, lang));
 const related = page.related.filter((id) => ROUTES.some((r) => r.id === id)).map((id) => ({ href: route(id, lang), name: label(id, lang), description: pageById(id)?.card ?? (id === 'home' ? 'The level, fee, admin fee and wait for 38 roles in one calculation.' : '') }));
-const sources = page.sources.map((k) => ({ name: P.sources[k].label.en, url: P.sources[k].url }));
+const sources = page.sources.map((k) => ({ name: P.sources[k].label.en, url: P.sources[k].url, relay: (P.sources[k] as { relay?: string }).relay }));
 const chunks: Array<{ html?: string; tool?: ToolDef }> = [];
 for (let i = 0; i < parts.length; i += 3) { chunks.push({ html: parts[i] }); if (parts[i + 1]) chunks.push({ tool: { kind: parts[i + 1], props: parts[i + 2] ? JSON.parse(parts[i + 2]) : undefined } }); }
 // Every page opens on a calculator within its first 250 words (tool or mini): no date above it (§8.4).

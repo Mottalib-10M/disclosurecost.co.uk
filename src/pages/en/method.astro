@@ -35,7 +35,9 @@ const sources = Object.values(h.P.sources);
     <h2>8. Tests</h2>
     <p>On every build, the engine tests check the fees of each body and date, the volunteer rules, the Update Service sums, the filtering rules and the four-nation comparison, and every page file is checked for its title, description, citable block and FAQ. A failing test stops the build.</p>
     <h2>9. Sources</h2>
-    <ul>{sources.map((x) => <li><a href={x.url} target="_blank" rel="nofollow noopener noreferrer">{x.label.en}</a></li>)}</ul>
+    <ul>{sources.filter((x) => !(x as { relay?: string }).relay).map((x) => <li><a href={x.url} target="_blank" rel="nofollow noopener noreferrer">{x.label.en}</a></li>)}</ul>
+    <h3>Other sources (unofficial relay)</h3>
+    <ul>{sources.filter((x) => (x as { relay?: string }).relay).map((x) => <li><a href={x.url} target="_blank" rel="nofollow noopener noreferrer">{x.label.en}</a>, unofficial relay: {(x as { relay?: string }).relay}</li>)}</ul>
     <p>All are Crown copyright under the <Fragment set:html={s('ogl', 'Open Government Licence v3.0')} />, except the police performance report, a DBS document relayed by Care England, from which only figures are taken. Method version: {LAST_UPDATED}. A figure that looks wrong: <a href={route('contact', lang)}>contact</a>.</p>
   </div>
 </PageLayout>

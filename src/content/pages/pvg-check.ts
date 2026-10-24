@@ -6,7 +6,7 @@ export default definePage({
   order: 61,
   tool: { kind: 'mini:wait', props: { level: 5, nation: 2 } },
   related: ['pvg-scheme', 'enhanced-dbs-check', 'criminal-record-check-uk', 'how-long-does-a-dbs-check-take'],
-  sources: ['ds_levels', 'ds_pvg', 'ds_fees', 'ds_q1', 'gov_fee_news'],
+  sources: ['ds_levels', 'ds_pvg', 'ds_fees', 'ds_q1', 'gov_fee_news', 'police_perf'],
   slug: 'pvg-check',
   nav: 'PVG check',
   card: 'The PVG check against the enhanced DBS check: fee, wait and who applies.',

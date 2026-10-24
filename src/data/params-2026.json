@@ -141,8 +141,9 @@
     "police_perf": {
       "url": "https://www.careengland.org.uk/wp-content/uploads/2026/08/Police-Performance-Information-August-26.pdf",
       "label": {
-        "en": "DBS Police Performance Information, August 2026 (relayed by Care England)"
-      }
+        "en": "DBS Police Performance Information, August 2026"
+      },
+      "relay": "Care England"
     },
     "ds_fees": {
       "url": "https://www.disclosure.gov.scot/disclosure-scotland-fees",

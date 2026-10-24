@@ -6,7 +6,7 @@ export default definePage({
   order: 64,
   tool: { kind: 'mini:nations', props: { level: 3 } },
   related: ['access-ni-check', 'pvg-scheme', 'basic-disclosure-scotland', 'dbs-check-cost'],
-  sources: ['gov_fee_news', 'ds_fees', 'ds_levels', 'ani_fees', 'gov_apply_role'],
+  sources: ['gov_fee_news', 'ds_fees', 'ds_levels', 'ani_fees', 'gov_apply_role', 'police_perf'],
   slug: 'criminal-record-check-uk',
   nav: 'Criminal record checks by nation',
   card: 'DBS, Disclosure Scotland and AccessNI side by side, level by level.',

@@ -153,7 +153,8 @@
     "basic-rb": "99% within 7 days",
     "standard": "99% within 7 days",
     "enhanced": "70% within 10 days, 95% within 21 days, 98% within 28 days"
-   }
+   },
+   "readOn": "2026-10-24"
   }
  },
  "vatRate": 0.2,
