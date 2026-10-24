@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://uk-dbs-check.example";
+export const SITE_URL = "https://disclosurecost.co.uk";
 export const SITE_NAMES: Record<string, string> = {"en": "Disclosure Cost"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-GB"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_GB"};
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["DBS check fees in England and Wales", "Basic, standard and enhanced DBS checks", "DBS barred list checks", "DBS eligibility guidance", "DBS Update Service", "PVG scheme and Disclosure Scotland fees", "AccessNI criminal record checks", "Umbrella body administration fees"]};
-export const CONTACT_EMAIL = "contact@uk-dbs-check.example";
+export const CONTACT_EMAIL = "contact@disclosurecost.co.uk";
 export const THEME_COLOR = '#1D4F91';
 export const LOGO_SYMBOL = '✓';
 export const BING_VERIFY_CODE = '';

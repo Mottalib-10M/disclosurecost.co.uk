@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://uk-dbs-check.example/sitemap-index.xml
+Sitemap: https://disclosurecost.co.uk/sitemap-index.xml
