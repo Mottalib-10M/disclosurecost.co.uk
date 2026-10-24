@@ -1,0 +1,78 @@
+{
+ "licence": "Crown copyright, Open Government Licence v3.0",
+ "scope": "England, Wales, Channel Islands, Isle of Man (Scotland: Disclosure Scotland; Northern Ireland: AccessNI)",
+ "rule": "Eligibility guidance is restated in our own words with the section cited; it is not legal advice and the recruiting organisation decides the level.",
+ "checkedOn": "2026-10-24",
+ "guides": [
+  {
+   "id": "children",
+   "title": "Eligibility for roles working with children",
+   "path": "government/publications/eligibility-for-roles-working-with-children/eligiblity-for-roles-working-with-children",
+   "url": "https://www.gov.uk/government/publications/eligibility-for-roles-working-with-children/eligiblity-for-roles-working-with-children",
+   "publicUpdatedAt": "2026-09-01"
+  },
+  {
+   "id": "adults",
+   "title": "Eligibility for roles working with adults",
+   "path": "government/publications/eligibility-for-roles-working-with-adults/eligibility-for-roles-working-with-adults",
+   "url": "https://www.gov.uk/government/publications/eligibility-for-roles-working-with-adults/eligibility-for-roles-working-with-adults",
+   "publicUpdatedAt": "2026-09-01"
+  },
+  {
+   "id": "other",
+   "title": "Eligibility for roles not working specifically with adults or children",
+   "path": "government/publications/eligibility-for-roles-not-working-specifically-with-adults-or-children/eligibility-for-roles-not-working-specifically-with-adults-or-children",
+   "url": "https://www.gov.uk/government/publications/eligibility-for-roles-not-working-specifically-with-adults-or-children/eligibility-for-roles-not-working-specifically-with-adults-or-children",
+   "publicUpdatedAt": "2026-09-01"
+  },
+  {
+   "id": "children-barred",
+   "title": "Eligibility for Enhanced with Barred List DBS checks with children",
+   "path": "government/publications/eligibility-for-enhanced-with-barred-list-dbs-checks-with-children/eligibility-for-enhanced-with-barred-list-dbs-checks-with-children",
+   "url": "https://www.gov.uk/government/publications/eligibility-for-enhanced-with-barred-list-dbs-checks-with-children/eligibility-for-enhanced-with-barred-list-dbs-checks-with-children",
+   "publicUpdatedAt": "2026-09-01"
+  },
+  {
+   "id": "children-enhanced",
+   "title": "Work with children: Enhanced without Children's Barred List check",
+   "path": "government/publications/work-with-children-enhanced-without-childrens-barred-list-check/eligibility-for-enhanced-dbs-check-child-workforce",
+   "url": "https://www.gov.uk/government/publications/work-with-children-enhanced-without-childrens-barred-list-check/eligibility-for-enhanced-dbs-check-child-workforce",
+   "publicUpdatedAt": "2026-09-01"
+  },
+  {
+   "id": "adults-barred",
+   "title": "Eligibility for Enhanced with Adults' Barred List DBS check",
+   "path": "government/publications/eligibility-for-enhanced-with-adults-barred-list-dbs-check/eligibility-for-enhanced-with-adults-barred-list-dbs-check",
+   "url": "https://www.gov.uk/government/publications/eligibility-for-enhanced-with-adults-barred-list-dbs-check/eligibility-for-enhanced-with-adults-barred-list-dbs-check",
+   "publicUpdatedAt": "2026-09-01"
+  },
+  {
+   "id": "adults-enhanced",
+   "title": "Work with adults: Enhanced without Adults' Barred List checks",
+   "path": "government/publications/work-with-adults-enhanced-without-adults-barred-list-checks/enhanced-dbs-checks-in-the-adult-workforce",
+   "url": "https://www.gov.uk/government/publications/work-with-adults-enhanced-without-adults-barred-list-checks/enhanced-dbs-checks-in-the-adult-workforce",
+   "publicUpdatedAt": "2026-09-01"
+  },
+  {
+   "id": "standard",
+   "title": "Eligibility for Standard DBS checks",
+   "path": "government/publications/eligibility-for-standard-dbs-checks/eligibility-for-standard-dbs-checks",
+   "url": "https://www.gov.uk/government/publications/eligibility-for-standard-dbs-checks/eligibility-for-standard-dbs-checks",
+   "publicUpdatedAt": "2026-09-01"
+  },
+  {
+   "id": "other-enhanced",
+   "title": "Enhanced DBS checks in the 'Other' workforce",
+   "path": "government/publications/enhanced-dbs-checks-in-the-other-workforce/enhanced-dbs-checks-in-the-other-workforce",
+   "url": "https://www.gov.uk/government/publications/enhanced-dbs-checks-in-the-other-workforce/enhanced-dbs-checks-in-the-other-workforce",
+   "publicUpdatedAt": "2026-09-01"
+  },
+  {
+   "id": "self-employed",
+   "title": "DBS checks for self-employed people and personal employees",
+   "path": "guidance/dbs-checks-for-self-employed-people-and-personal-employees",
+   "url": "https://www.gov.uk/guidance/dbs-checks-for-self-employed-people-and-personal-employees",
+   "publicUpdatedAt": "2026-01-23"
+  }
+ ]
+}

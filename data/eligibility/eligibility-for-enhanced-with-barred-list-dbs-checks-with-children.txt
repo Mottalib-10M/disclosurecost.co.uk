@@ -1,0 +1,129 @@
+https://www.gov.uk/government/publications/eligibility-for-enhanced-with-barred-list-dbs-checks-with-children/eligibility-for-enhanced-with-barred-list-dbs-checks-with-children 2026-09-01T09:42:00+01:00
+ Disclaimer: This is not legal advice. If you need help with making sure you are complying with the law, you should speak to a legal adviser.
+ 1. Introduction 
+ This guidance is designed to help you determine whether a role is eligible for an Enhanced DBS check with a Children’s Barred List check. It outlines the specific activities, job roles, and workplaces that may mean a role is in regulated activity.  This guidance applies whether roles are paid or unpaid.
+ Some roles may still be eligible for an Enhanced DBS check with a Children’s Barred List check even if they do not involve regulated activity. These are listed towards the end of the guidance under the section titled ‘Other Roles – not regulated activity’.
+ After reviewing the guidance, if the role is not eligible for an Enhanced DBS check with Barred List check, you should then consider whether it is eligible for an Enhanced DBS check without access to the Barred List.
+ This guidance will support you with this assessment: Work with children - Enhanced without Children’s Barred List Check - GOV.UK 
+ 2. Regulated Activity- Specified Activities
+ The below activities, if undertaken often enough to meet the period condition are regulated activity with children, meaning the role is eligible for an Enhanced with Children’s Barred List DBS check. 
+ Activity
+ Period condition
+ Age of child
+ Links to legislation
+ Teaching, training, or instruction, care for, or supervision of children
+ On more than 3 days in a 30-day period, or once overnight between 2am and 6am with the opportunity for face-to-face contact with children
+ Under 18 – but not if the activity is in relation to the child’s paid or unpaid employment and they are 16 or 17 years old
+ legislation here 
+ Advice or guidance provided wholly or mainly to children about their educational, emotional, or physical wellbeing
+ On more than 3 days in a 30-day period, or once overnight between 2am and 6am with the opportunity for face-to-face contact with children
+ Under 18 – but not if the activity is in relation to the child’s paid or unpaid employment and they are 16 or 17 years old
+ legislation here 
+ Moderating a web service wholly or mainly for children (see below for more information)
+ On more than 3 days in a 30-day period
+ Under 18
+ legislation here 
+ Driving a vehicle for children
+ On more than 3 days in a 30-day period
+ Under 18
+ legislation here 
+ Healthcare or personal care (see below for more information)
+ No requirement - once is enough
+ Under 18
+ legislation here 
+ Registering to be a foster carer or private foster carer
+ No requirement considered
+ Under 18
+ legislation here 
+ Registering to be a childminder or childcare provider, including voluntary registration
+ No requirement considered
+ In line with regulations
+ legislation here 
+ Day-to-day management of someone in regulated activity with children
+ No requirement considered
+ Under 18
+ legislation here 
+ 2.1 Moderating a web service wholly or mainly for children
+ Individuals that moderate public online interactive services (like a chatroom or a forum) that is likely to be used mainly by children may be eligible for an Enhanced with Children’s Barred List DBS check.
+ What counts as moderating:
+ A person is considered to be moderating such a service if they do any of the following:
+ Monitor the content
+ Can remove content from the service or prevent new content from being added.
+ Can control who can access or use the service.
+ Additional conditions:
+ A person is considered to be moderating in the ways described above if they:
+ Have access to the content on the service
+ Have contact with the users, including children, who use the service
+ 2.2 Healthcare
+ Individuals who provide health care to children, either as a health care professional or under the direction or supervision of a health care professional are eligible for an Enhanced with Children’s Barred List DBS check.
+ This includes providing psychotherapy and counselling and also covers first aiders where they provide this through an organisation set up specifically for the purposes of providing first aid, e.g. St John’s Ambulance and community first responders.
+ For role examples please see this guidance - Eligibility for healthcare roles - GOV.UK 
+ Should you wish to view the relevant legislation you can do so in section 2.6 of the legislation attachment. 
+ 2.3 Personal Care
+ Individuals who provide personal care at least once which involves:
+ Helping a child eat or drink, or reminding and watching them do it, or giving advice or training — because of their illness or disability.
+ Helping a child go to the toilet, wash, bathe, or get dressed, or reminding and watching them do it, or giving advice or training — because of their age, illness, or disability.
+ are eligible for an Enhanced with Children’s Barred list DBS check.
+ Should you wish to view the relevant legislation you can do so in section 2.7 of the legislation attachment. 
+ 2.4 Scenarios relating to specified activities:
+ Scenario 1 – Teaching, training
+ Michael teaches children to read at the local library as part of his work with a local charity every Saturday morning. Michael is eligible for an Enhanced with Children’s Barred list DBS check as he is teaching children and undertakes work often enough to meet the period condition.
+ Scenario 2 - Teaching, training
+ Louise is 17 years old and has started an apprenticeship at a local construction firm. David is Louise’s colleague and is employed by the construction firm, he is responsible for the day-to-day supervision of Louise in the workplace. As this supervision is undertaken in relation to Louise’s employment David is not eligible for an Enhanced with Barred List DBS check. The organisation could ask him to obtain a Basic DBS check should they wish to.
+ Scenario 3 – Advice, guidance
+ Nasir works full time for a service set up to support children with their emotional wellbeing. Nasir’s role is to speak with children using the service and provide guidance to them on how to manage their wellbeing. Nasir is eligible for an Enhanced with Children’s Barred List DBS check as he is providing guidance mainly to children on their emotional wellbeing.
+ Scenario 4 – moderating a web service
+ Fatima works for a children’s charity set up to support children with a wide range of issues. Fatima works in the digital safety team and is responsible for monitoring the online forum on their website. Fatima admits members to the forum and interacts with them directly to signpost to further support. Fatima is eligible for an Enhanced with Children’s Barred List DBS check.
+ Scenario 5 – driving a vehicle
+ Peter works for a local minibus firm. Peter has a contract with a school in his area to drive children to and from school 5 days a week. Peter is eligible for an Enhanced with Children’s Barred List DBS check.
+ Scenario 6 – Day-to-day management of someone in regulated activity
+ Brian works for an organisation that runs after school activities for children. Brian teaches children twice a week about the local environment and how to look after it. Denise works for the same organisation and is Brian’s Line manager. Denise does not instruct the children herself but is eligible for an Enhanced with Children’s Barred list DBS check as she undertakes the day-to-day management of Brian.
+ 3. Regulated Activity - Specified establishments
+ People working in these specified establishments who aren’t carrying out one of the regulated activities mentioned above (often ancillary roles e.g. cleaners, reception, admin staff) will be carrying out regulated activity with children if they meet all 4 of the following criteria:  
+ They work in the establishments on more than 3 days in a 30-day period, or once overnight between 2am and 6am with the opportunity for face-to-face contact with the children
+ They have the opportunity, because of their job, to have contact with the children in the establishment
+ They work there for the purpose of the establishment
+ It is not temporary or occasional work
+ The specified establishments are:
+ an educational institution exclusively or mainly for the provision or full-time education of children
+ a pupil referral unit
+ an alternative provision Academy (England only)
+ a provider of nursery education
+ a detention centre for children
+ a secure accommodation service for children (Wales only)
+ a children’s home or a home provided under the Children Act 1989
+ a care home wholly or mainly for children, in Wales only
+ a children’s centre
+ relevant childcare premises
+ Should you wish to view the relevant legislation you can do so in the section 2.11 of the legislation attachment. 
+ Scenario 7
+ Josie has successfully applied for a job as a cleaner in a school.  She will work 5 days a week during school hours.  She is not responsible for supervising children, however she will have regular contact with them as she is doing her job.  As she is there for the purpose of the school and it is not temporary or occasional work, Josie is asked to apply for an Enhanced with Children’s Barred List DBS check.
+ Scenario 8
+ Johann is contracted to maintain electronic equipment on an on-going basis for several schools in a local authority.  Although he is unlikely to be in any one particular school often enough, he will visit several schools within a 30-day period.  He is expected to be in classrooms when children are present.  Because all 4 of the criteria are met, the local authority ask Johann to apply for an Enhanced with Children’s Barred List DBS check.
+ 4.  Regulated activity - specified positions in Wales only  
+ The below position is eligible for an Enhanced with Children’s Barred List DBS check:
+ functions of the Children’s Commissioner for Wales and of the Deputy Children’s Commissioner for Wales
+ The following positions are in regulated activity with children only if the job holder has the opportunity, because of the role held, to have contact with the children: 
+ functions of the Welsh Ministers to inspect registered establishments or agencies, an NHS body or anyone providing healthcare for the body
+ functions relating to the inspection of childminding, or fostering agencies, residential family centres, voluntary adoption agencies, adoption support agencies
+ functions relating to the welfare of children in boarding schools
+ functions relating to inspections of teacher training, local education authorities, registered independent schools, boarding schools and colleges
+ functions relating to a review or investigation of the functions of children’s services authorities
+ functions relating to the inspection of careers services
+ functions relating to the inspection of religious education
+ functions relating to the inspection of the discharge of social services functions by local authorities
+ Should you wish to view the relevant legislation you can do so in section 2.12 of the legislation attachment. 
+ 5. Other roles – not in regulated activity
+ The following roles are eligible for Enhanced with Children’s Barred list DBS checks in the children’s workforce but are not in regulated activity:
+ Individuals who are aged over 16 and living in a household where another person in the household has been or is being assessed to carry out regulated activity with children and they both live on the premises where that work will take place
+ Individuals aged 16 and over who live or work in the premises where childminding or childcare takes place and have the opportunity for regular contact with the children
+ Individuals aged 18 and over (according to Dept for Education regulations) who live in a fostering household, or anyone aged 16 and over who lives in a private fostering household
+ Individuals applying to be adoptive parents or special guardians, and anyone aged 18 and over who lives in the adoptive or special guardian household
+ Taxi drivers will also be eligible for an Enhanced with Children’s Barred list DBS check in the ‘other’ workforce when applying for their taxi licence. Please see further guidance on this on the Enhanced DBS checks in the ‘Other’ workforce GOV.UK page 
+ Should you wish to view the relevant legislation you can do so in section 2.13 of the legislation attachment. 
+ Scenario 9
+ Tarla is a foster child who is about to turn 18.  She and her foster family have decided that she will stay put with the family after her 18th birthday.  The family will continue to foster other children.  As she will be an adult household member, Tarla can be asked to apply for an Enhanced with Children’s Barred List DBS check.  As Tarla won’t have specific responsibility for looking after the other foster children, she will not be in regulated activity.
+ 6. Links and contacts
+ Information about regulated activity with children is also available from the Department for Education (DfE) - Keeping children safe in education - GOV.UK 
+ See this webpage for more information on how to contact DBS -  Disclosure and Barring Service - GOV.UK 
+ 

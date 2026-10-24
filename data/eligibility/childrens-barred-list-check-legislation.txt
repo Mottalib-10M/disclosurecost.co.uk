@@ -1,0 +1,180 @@
+https://www.gov.uk/government/publications/eligibility-for-enhanced-with-barred-list-dbs-checks-with-children/childrens-barred-list-check-legislation 2026-09-01T09:42:00+01:00
+ 1. Introduction
+ This webpage sets out the legislation which underpins the guidance on the Enhanced with Children’s Barred List eligibility webpage.
+ DBS have provided this to organisations to support them in their decision making. DBS may not be able to provide further context surrounding this wording.
+ This is not intended as legal advice. Organisations should seek professional guidance as needed.
+ 2. Specified Activities
+ Wording from the Police Act 1997 (Criminal Records) (no.2) Regulations 2009 regulation 5:
+ “(a) considering the applicant’s suitability to engage in any activity which is a regulated activity relating to children within the meaning of Part 1 of Schedule 4 to the Safeguarding Vulnerable Groups Act 2006 as amended by section 64 of the Protection of Freedoms Act 2012.” 
+ Regulated activity is work that a barred person must not do. Regulated activity with children does not include any activity carried out in the course of family relationships, or personal, non-commercial relationships.
+ 2.1 Teaching, training, instruction of children (also see box below)
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1:
+ (2)(1)(a) any form of teaching, training or instruction of children, unless the teaching, training or instruction is merely incidental to teaching, training or instruction of persons who are not children
+ 2.2 Care for or supervision of children (also see box below)
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1:
+ (2)(1)(b) any form of care for or supervision of children, unless the care or supervision is merely incidental to care for or supervision of persons who are not children;
+ 2.3 Advice or guidance provided wholly or mainly to children about their educational, emotional, or physical wellbeing (also see box below)
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1 paragraph 2:
+ (1)(c) any form of advice or guidance provided wholly or mainly for children, if the advice or guidance relates to the physical, emotional or educational well-being
+ (3D) sub-paragraph (1)(c) does not include any legal advice
+ In relation to the above 3 entries: 
+ 2) sub-paragraph (1)(a), (b) and (c) do not include
+ (a) teaching, training or instruction provided to a child in the course of his employment;
+ (b) care for or supervision of a child in the course of his employment;
+ (c) advice or guidance provided for a child in the course of his employment
+ (3) subparagraph (2) does not apply if
+ (a) the child has not attained the age of 16, and
+ (b) the activity is carried out by a person in respect of whom arrangements exist principally for that purpose.
+ (6) in sub-paragraph (2) employment includes any form of work which is carried out under the supervision or control of another, whether or not the person carrying it out is paid for doing so
+ 2.4 Moderating a web service wholly or mainly for children
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1 paragraph 2:
+ (1)(e) moderating a public electronic interactive communication service which is likely to be used wholly or mainly by children;
+ (4) for the purposes of sub-paragraph (1)(e) a person moderates a public electronic interactive communication service if, for the purpose of protecting children, he has any function relating to
+ (a) monitoring the content of matter which forms any part of the service,
+ (b) removing matter from, or preventing the addition of matter to, the service, or
+ (c) controlling access to, or use of, the service.
+ (5) but a person does not moderate a public electronic interactive communications service as mentioned in sub-paragraph (4)(b) or (c) unless he has –
+ (a) access to the content of the matter
+ (b) contact with users of the service
+ 2.5 Driving a vehicle for children
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1 paragraph 2:
+ (1)(f) driving a vehicle which is being used only for the purpose of conveying children and any person supervising or caring for the children pursuant to arrangements made in prescribed circumstances.
+ 2.6 Healthcare
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1 paragraph 1:
+ (1A) (b) health care provided by, or under the direction or supervision of, a health care professional.
+ (1C) “health care” includes all forms of health care provided for children, whether relating to physical or mental health and also includes palliative care for children and procedures that are similar to forms of medical or surgical care but are not provided for children in connection with a medical condition,
+ “health care professional” means a person who is a member of a profession regulated by a body mentioned in section 25(3) of the National Health Service Reform and Health Care Professions Act 2002.
+ (1D) any reference in this Part of this Schedule to health care provided by, or under the direction or supervision of, a health care professional includes a reference to first aid provided to a child by any person acting on behalf of an organisation established for the purpose of providing first aid.
+ 2.7 Personal Care
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1 paragraph 1:
+  (a) relevant personal care
+ 1B) “relevant personal care” means –
+ (a) physical assistance which is given to a child who is in need of it by reason of illness or disability and is given in connection with eating or drinking (including the administration of parental nutrition)
+ (b) physical assistance which is given to a child who is in need of it by reason of age, illness or disability and is given in connection with –
+ (i) toileting (including in relation to menstruation), or
+ (ii) washing or bathing, or
+ (iii) dressing
+ (c) the prompting (together with the supervision) of a child, who is in need (1)of it by reason of illness or disability, in relation to the performance of the activity of eating or drinking where the child is unable to make a decision in relation to performing such an activity without such prompting and supervision,
+ (d) the prompting (together with the supervision) of a child, who is in need of it by reason of age, illness or disability, in relation to the performance of any of the activities listed in paragraph (b)(i) to (iii) where the child is unable to make a decision in relation to performing such an activity without such prompting and supervision,
+ (e) any form of training, instruction, advice or guidance which –
+ (i) relates to the performance of the activity of eating or drinking,
+ (ii) is given to a child who is in need of it by reason of illness or disability, and
+ (iii) does not fall within paragraph (c), or
+ (f) any form of training, instruction, advice or guidance which—
+ (i) relates to the performance of any of the activities listed in paragraph (b)(i) to (iii),
+ (ii) is given to a child who is in need of it by reason of age, illness or disability, and
+ (iii) does not fall within paragraph (d).
+ 2.8 Foster carer, private foster carer
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 paragraph 1:
+ (5) It is a regulated activity relating to children to foster a child (as mentioned in section 53)
+ 2.9 Childminders or childcare providers
+ Wording from the Police Act 1997 (Criminal Records) Regulations 2002, as amended by the Police Act 1997 (Criminal Records) (Amendment No.2) Regulations 2013/2669:
+ Registration for child minding or providing day care under Part 2 of the Children and Families (Wales) Measure 2010 
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1 paragraph 1:
+ (3) each of the following, if carried out in England, is a regulated activity relating to children –
+ a) providing early years childminding in respect of which a requirement to register arises by section 33(1) of the Childcare Act 2006 (c. 21) (requirement to register);
+ b) providing later years childminding in respect of which a requirement to register arises by section 52(1) of that Act (requirement to register);
+ c) providing early years childminding or later years childminding, if it is provided by a person who is registered by virtue of section 62(1) of that Act (voluntary registration of childminders);
+ d) providing later years childminding for a child who has attained the age of eight, if a requirement to register would arise in respect of that provision by section 52(1) of that Act if the child had not attained that age.
+ (4) any expression used both in sub-paragraph (3) and in Part 3 of the Childcare Act 2006 has the meaning given by that Act.
+ (6) each of the following, if carried out in Wales, is a regulated activity relating to children –
+ (a) acting as a child minder so as to give rise to a requirement to register under section 21 of the Children and Families (Wales) Measure 2010;
+ (b) an activity which would give rise to such a requirement if the child in relation to whom the activity is carried out were under the age of eight (or such other age as may be substituted by order under section 19(4)(a) of the Children and Families (Wales) Measure 2010).
+ (7) for the purposes of sub-paragraph (6), “acting as a child minder” must be construed in accordance with section 19 of the Children and Families (Wales) Measure 2010
+ 2.10 Day-to-day management of someone in regulated activity with children
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1:
+ (1)(14) any activity which consists in or involves on a regular basis the day-to-day management or supervision of a person carrying out an activity mentioned in sub-paragraph (1), (2), (9A), (9C) or (11) is a regulated activity relating to children
+ (1)(15) any activity which consists in or involves on a regular basis the day to day management or supervision of a person who would be carrying out an activity mentioned in sub-paragraph (1) or (2) but for the exclusion for supervised activity in paragraph 2(3A) or (3B)(b) or sub-paragraph(2B)(b) above is a regulated activity relating to children
+ 2.11 Specified Establishments
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1 paragraph 1:
+ (2) An activity is a regulated activity relating to children if–
+ (a) it is carried out frequently by the same person or the period condition is satisfied,
+ (b) it is carried out in an establishment mentioned in paragraph 3(1),
+ (c) it is carried out by a person while engaging in any work falling within sub-paragraph (2A) or (2B),
+ (d) it is carried out for or in connection with the purposes of the establishment, and
+ (e) it gives that person the opportunity, in consequence of anything he is permitted or required to do in connection with the activity, to have contact with children.
+ (2A) Work falls within this sub-paragraph if it is any form of work for gain, other than any such work which—
+ (a) is undertaken in pursuance of a contract for the provision of occasional or temporary services, and
+ (b) is not an activity mentioned in paragraph 2(1)
+ (2B) Work falls within this sub-paragraph if it is any form of work which is not for gain, other than—
+ (a) any such work which—
+ (i) is carried out on a temporary or occasional basis, and
+ (ii) is not an activity mentioned in paragraph 2(1)
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1 paragraph 3:
+ (1) the establishments referred to are –
+ (a) an educational institution which is exclusively or mainly for the provision of full-time education to children;
+ (aa) a school falling within section 19(2) or (2B) of the Education Act 1996 (pupil referral units etc) which does not fall within sub-paragraph (1)(a);
+ (ab) an alternative provision Academy which does not fall within paragraph (a);
+ (b) an establishment which is exclusively or mainly for the provision of nursery education (within the meaning of section 117 of the School Standards and Framework Act 1998
+ (d) an institution which is exclusively or mainly for the detention of children;
+ (e) a children’s home (within the meaning of section 1 of the Care Standards Act 2000 (c.14));
+ (f) a home provided in pursuance of arrangements under section 82(5) of the Children Act 1989 (c. 41);
+ (fa) a children’s centre (within the meaning of section 5A (4) of the Childcare Act 2006);
+ (g) relevant childcare premises.
+ (2) relevant childcare premises are any part of premises on which a person carries on–
+ a) any form of childcare (within the meaning of section 18 of the Childcare Act 2006 (c. 21) in respect of which he must be registered under that Act;
+ b) any form of such childcare in respect of which he may be registered under that Act whether or not he is so registered;
+ c) any form of child minding or day care (within the meaning of section 79A of the Children Act 1989 (c. 41) or section 19 of the Children and Families (Wales) Measure 2010) in respect of which he must be registered under that Act.
+ (3) but premises on which a person carries on childcare or child minding are not relevant childcare premises if the premises are the home of a parent of at least one child to whom the childcare or child minding is provided.
+ (4) for the purpose of paragraph (3) “parent” includes any person who has parental responsibility for a child or who has care of a child.
+ (5) “parental responsibility” has the same meaning as in the Children Act 1989
+ 2.12 Welsh roles:
+ The Children’s Commissioner for Wales − the Deputy Children’s Commissioner for Wales
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 1 paragraph 1:
+ (9) the exercise of a function of the Children’s Commissioner for Wales or the deputy Children’s Commissioner for Wales is a regulated activity relating to children
+ Welsh inspection functions:
+ (9A) the exercise of a function so far as the function –
+ (a) relates to any of the matters mentioned in sub-paragraph (9B),
+ (b) gives the person exercising the function the opportunity, in consequence of anything the person is permitted or required to do in the exercise of that function, to have contact with children, and
+ (c) is not a function which falls within sub-paragraph (9C) is a regulated activity relating to children
+ (9B) the matters in this sub-paragraph are-
+ (b) the exercise of a power under section 41 or 42 of the Children and Families (Wales) Measure 2010 (powers of inspection etc on entry onto childminding or day care premises in Wales or premises on which childminding or daycare is suspected to be taking place);
+ (c) any step taken in relation to Wales for the purposes of section 87(3) of the Children Act 1989 (welfare of children in boarding schools and colleges);
+ (d) an inspection in Wales under section 87(6) of that Act (inspection of boarding school or college);
+ (e) any step taken in relation to Wales by a person appointed under section 87A (1) of that Act (appointment as an inspector of boarding schools and colleges) –
+ (i) for the purposes of an agreement made in accordance with section         87A (2) of that Act, or Page 14 of 17
+ -(ii) in order to comply with any requirement imposed on the person under section 87B of that Act;
+ (f) an inspection under section 18C of the Education Act 1994 (inspection of teacher training);
+ (g) an inspection under section 38 of the Education Act 1997 (inspection of local education authorities in Wales);
+ (h) an inspection in Wales under section 31 of the Care Standards Act 2000 (inspections of establishments and agencies or the inspection of premises suspected as being used as an establishment or agency) of a residential family centre, a fostering agency, a voluntary adoption agency or an adoption support agency (each of which has the meaning given in section 4 of that Act); (i) an inspection under Part 4 of the Learning and Skills Act 2000 (inspection of education and training within the remit of Her Majesty’s Chief Inspector of Education and Training in Wales);
+ (j) a review or investigation under section 94 of the Health and Social Care (Community Health and Standards) Act 2003 (review or investigation of the discharge of social services functions by local authorities in Wales);
+ (k) a review or investigation under section 94 of that Act as applied by section 30 of the Children Act 2004 (review or investigation of the functions of children’s services authorities in Wales);
+ (l) an inspection under section 28 of the Education Act 2005 (duty of Her Majesty’s Chief Inspector of Education and Training in Wales to arrange regular inspections of certain schools);
+ (m) an inspection under section 50 of that Act (inspection of religious education);
+ (n) an inspection in Wales under section 51 of that Act (power of local education authorities to inspect maintained school for specific purpose);
+ (o) an inspection under section 55 of that Act (inspection of careers services in Wales)
+ (9C) the exercise of a function to which sub-paragraph (10) applies so far as the function –
+ (a) relates to the inspection of an establishment mentioned in paragraph 3(1), and
+ (b) gives the person exercising the function the opportunity, in consequence of anything the person is permitted or required to do in the exercise of that function, to have contact with children,
+ is a regulated activity relating to children.
+ (10) this sub-paragraph applies to a function of –
+ (b) HM Chief Inspector of Education and Training in Wales;
+ (c) (a body approved in pursuance of section 163(1)(b) of the Education Act 2002 (c.32) to inspect a registered independent school in Wales
+ (g) the Welsh Ministers.
+ (11) the exercise of a function of the Welsh Ministers so far as the function –
+ (a) relates to the inspection of an establishment, agency or body falling within sub-paragraph (12), and
+ (b) gives the person exercising the function the opportunity, in consequence of anything the person is permitted or required to do in the exercise of that function, to have contact with children, is a regulated activity relating to children.
+ (12) an establishment, agency or body falls within this sub-paragraph if it is –
+ (a) an establishment in relation to which a requirement to register arises under section 11of the Care Standards Act 2000 (c. 14),
+ (b) an agency in relation to which such a requirement arises, or
+ (c) an NHS body within the meaning of section 148 of the Health and Social Care (Community Health and Standards) Act 2003 (c. 43), and it provides any form of treatment or therapy for children.
+ (13) in sub-paragraph (12)(c) the reference to an NHS body includes a reference to any person who provides, or is to provide, health care for the body (wherever the health care is or is to be provided)
+ 2.13 Non-regulated activity roles with access to the children’s barred list
+ Wording from the Police Act 1997 (Criminal Records) (no.2) Regulations 2009 regulation 5:
+ b) assessing the suitability of a person to have regular contact with children who is aged 16 or over and who lives in the same household as an individual who is having or who has had their suitability assessed for the purposes of engaging in a regulated activity relating to children, where that individual, and the person who lives in the same household, live on the premises where that regulated activity would normally take place;
+ (c) considering the suitability of a person for the purposes of registration for childcare, including assessing the suitability of a person to have regular contact with children who is—
+ (i) aged 16 or over and living on the premises at which childcare is being or is to be provided;
+ (ii) aged 16 or over and working, or who will be working, on the premises at which childcare is being or is to be provided at times when such childcare is being provided or is to be provided;
+ where that childcare is the provision of childminding or day care within the meaning of section 19 of the Children and Families (Wales) Measure 2010 or the provision of childcare within the meaning of section 18 of the Childcare Act 2006;
+ (d) placing children with foster parents in accordance with any provision of, or made by virtue of, the Children Act 1989 or the Children (Northern Ireland) Order 1995 or the exercise of any duty under or by virtue of section 67 of that Act or Article 108 of that Order (welfare of privately fostered children) including obtaining information in respect of any person who is—
+ (i) aged 16 or over and living in the same household as a person who is, or who wishes to be approved as, a foster parent within the meaning of section 53(7)(a) or (b) of the Safeguarding Vulnerable Groups Act 2006;
+ (ii) aged 16 or over and living in the same household as a person who fosters, or intends to foster, a child privately within the meaning of section 66(1) of the Children Act 1989 or who is otherwise a private foster parent within the meaning of section 53(7)(c) of the Safeguarding Vulnerable Groups Act 2006;
+ (e) a decision made by an adoption agency within the meaning of section 2 of the Adoption and Children Act 2002, or the compiling of a report for an authority making a decision in respect of an application to be a special guardian within the meaning of section 14A of the Children Act 1989, as to a person’s suitability to adopt a child or be a special guardian, including obtaining information in respect of any person aged 18 years or over living in the same household as the prospective adopter or special guardian;
+ 2.14 The period condition
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 3:
+ 10
+ (1) The period condition is satisfied if the person carrying out the activity does so at any time on more than three days in any period of 30 days.
+ (2) In relation to an activity that falls within paragraph 2(1)(a), (b) or (c), the period condition is also satisfied if–
+ (a) the person carrying out the activity does so at any time between 2 a.m. and 6 a.m, and
+ (b) the activity gives the person the opportunity to have face-to-face contact with children
+ 

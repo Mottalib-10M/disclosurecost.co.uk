@@ -1,0 +1,100 @@
+{
+ "source": "DBS « Police Performance Information », monthly report supplied by the Disclosure and Barring Service, relayed by Care England",
+ "url": "https://www.careengland.org.uk/wp-content/uploads/2026/08/Police-Performance-Information-August-26.pdf",
+ "index": "https://www.careengland.org.uk/dbs-processing-times-and-police-performance/",
+ "licence": "DBS document (Crown copyright). Only facts are reused (averages, list of delayed forces), with source and date; no text or layout copied.",
+ "reports": [
+  {
+   "report": "2026-08",
+   "dataMonth": "2026-07",
+   "avgDays": {
+    "enhanced": 13.1,
+    "standard": 1.1,
+    "basic": 0.7
+   },
+   "policeReturnAvgDays": 26,
+   "forcesCommissioned": 52,
+   "checksSentToForcesPerYear": 3000000,
+   "delayedForces": [
+    "Hampshire and Isle of Wight",
+    "Thames Valley",
+    "Sussex",
+    "Dyfed-Powys",
+    "Avon and Somerset",
+    "Cleveland",
+    "Northumbria",
+    "Cambridgeshire",
+    "Hertfordshire",
+    "West Yorkshire",
+    "Police Scotland"
+   ],
+   "agedCases": {
+    "start": 11434,
+    "end": 8390
+   },
+   "unitsUnder100Aged": 42
+  },
+  {
+   "report": "2026-07",
+   "dataMonth": "2026-06",
+   "avgDays": {
+    "enhanced": 13.5,
+    "standard": 1.2,
+    "basic": 0.9
+   },
+   "policeReturnAvgDays": 27,
+   "delayedForcesCount": 10,
+   "delayedForces": null
+  }
+ ],
+ "note": "No per-force turnaround in days is published: the site shows « on the delayed list in month X » per force, never an invented number of days.",
+ "forces": [
+  "Avon and Somerset",
+  "Bedfordshire",
+  "Cambridgeshire",
+  "Cheshire",
+  "City of London",
+  "Cleveland",
+  "Cumbria",
+  "Derbyshire",
+  "Devon and Cornwall",
+  "Dorset",
+  "Durham",
+  "Dyfed-Powys",
+  "Essex",
+  "Gloucestershire",
+  "Greater Manchester",
+  "Gwent",
+  "Hampshire and Isle of Wight",
+  "Hertfordshire",
+  "Humberside",
+  "Kent",
+  "Lancashire",
+  "Leicestershire",
+  "Lincolnshire",
+  "Merseyside",
+  "Metropolitan Police",
+  "Norfolk",
+  "North Wales",
+  "North Yorkshire",
+  "Northamptonshire",
+  "Northumbria",
+  "Nottinghamshire",
+  "South Wales",
+  "South Yorkshire",
+  "Staffordshire",
+  "Suffolk",
+  "Surrey",
+  "Sussex",
+  "Thames Valley",
+  "Warwickshire",
+  "West Mercia",
+  "West Midlands",
+  "West Yorkshire",
+  "Wiltshire",
+  "British Transport Police",
+  "Police Scotland",
+  "Police Service of Northern Ireland"
+ ],
+ "forcesNote": "The 43 territorial police forces of England and Wales, plus British Transport Police, Police Scotland and the Police Service of Northern Ireland, to which DBS sends enhanced checks for local information. Names written to match the DBS report."
+}

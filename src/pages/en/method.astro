@@ -1,0 +1,41 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+const lang = 'en';
+const h = helpers();
+const { FEE, FEES, D, m, pc, num, days, src } = h;
+const ex = D.totalCost({ nation: 'england', level: 'enhanced-cbl', adminFee: 10, adminFeeExVat: true, updateYears: 1 });
+const upd = D.updateVsNewChecks('enhanced-cbl', 3, 1, 10);
+const qe = h.quarter('enhanced');
+const pol = h.police;
+const s = (k: Parameters<typeof h.src>[0], t?: string) => src(k, t);
+const sources = Object.values(h.P.sources);
+---
+<PageLayout title="DBS Fees Method: Regulations, Guidance, Data and Limits" description="DBS fees method: how the level of a check, its fee since 5 October 2026, admin fee and VAT, Update Service sums and waiting times are worked out, from where." lang={lang} jsonLd={[articleSchema({ title: 'How the DBS fees, levels and waits are worked out', description: 'Method of Disclosure Cost', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Method' }]}>
+  <header class="mb-6"><p class="kicker">Method</p><h1 class="mt-1 text-3xl font-bold text-navy-900 md:text-4xl">How the DBS fees, levels and waits are worked out</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Every page and every calculator reads the same data files: <code>fees.json</code> for the fees of the three bodies, <code>roles.json</code> for the level of 38 roles, <code>performance.json</code> and <code>police-performance.json</code> for waits. No fee, date or percentage is typed into a page. A script, <code>scripts/update-data.py</code>, re-reads the official pages, compares the amounts with the file and stops with an error when one differs, so a change of fee is never published silently. Official pages were last read on {h.date(LAST_UPDATED)}.</p>
+    <h2>1. Fees in England and Wales</h2>
+    <p>The fees are those of <Fragment set:html={s('si_2026_985', 'SI 2026/985')} />, in force since {h.effective}: {m(FEE.basic)} basic, {m(FEE.standard)} standard, {m(FEE.enhanced)} enhanced with or without barred lists, {m(FEE.update)} a year for the Update Service. They match the <Fragment set:html={s('gov_fee_news', 'DBS announcement')} /> of {h.announced} and the <Fragment set:html={s('gov_employer', 'GOV.UK employer page')} />, which adds {m(FEE.adultFirst)} for the Adult First service. For a date before {h.effective}, the engine applies the fees of <Fragment set:html={s('si_2024_1111', 'SI 2024/1111')} /> ({m(FEE.oldBasic)}, {m(FEE.oldStandard)}, {m(FEE.oldEnhanced)}, {m(FEE.oldUpdate)}). Volunteers pay nothing for standard and enhanced checks; a basic check is never free.</p>
+    <h2>2. Admin fee and VAT</h2>
+    <p>No official source publishes the admin fees of umbrella bodies in a form we can read: the GOV.UK directory refuses automated reading, and we do not work around it. The calculators therefore take the fee you were quoted. If you say it is quoted before VAT, {pc(FEE.vat, 0)} is added to it, never to the DBS fee, following the disbursement rules of <Fragment set:html={s('vat_700', 'HMRC VAT Notice 700, section 25')} />. Example: an enhanced check with the children's barred list, a {m(10)} admin fee before VAT and one year of Update Service cost {m(ex.official)} + {m(ex.admin)} + {m(ex.vat)} + {m(ex.update)} = {m(ex.total)}.</p>
+    <h2>3. The level of a role</h2>
+    <p>The level is the highest one the <Fragment set:html={s('gov_eligibility', 'DBS eligibility guidance')} /> allows, read in its nine documents updated on 1 September 2026. Work with children reaches the children's barred list when a specified activity is done on more than three days in 30 days or overnight between 2am and 6am, or at once for health or personal care; work with adults reaches the adults' barred list from the first episode of a regulated activity. Each of the 38 roles of the finder cites its section. The question-by-question calculator applies the same tests. The result is indicative: the recruiting organisation decides, and the guidance is not legal advice.</p>
+    <h2>4. Scotland and Northern Ireland</h2>
+    <p>Fees come from <Fragment set:html={s('ds_fees', 'Disclosure Scotland')} /> ({m(FEE.scLevel1)} Level 1, {m(FEE.scLevel2)} Level 2, {m(FEE.pvgJoin)} to join the PVG scheme, {m(FEE.pvgExisting)} for an existing member) and <Fragment set:html={s('ani_fees', 'AccessNI')} /> ({m(FEE.niBasic)}, {m(FEE.niStandard)}, {m(FEE.niEnhanced)}). A role is mapped to the equivalent product: a barred-list level becomes a PVG application or an AccessNI enhanced check. Scotland's social care waiver applies from {h.date(FEES.scotland.socialCareWaiver.from)} to {h.date(FEES.scotland.socialCareWaiver.to)}.</p>
+    <h2>5. Update Service or new checks</h2>
+    <p>Without the subscription, every role that asks for a new certificate costs the fee plus the admin fee. With it, the first check is paid once and {m(FEE.update)} is added each year. Over three years with one new check a year and a {m(10)} admin fee on an enhanced check: {m(upd.withoutUpdate)} without, {m(upd.withUpdate)} with. The rules (30 days to join, standard and enhanced only, free status checks) are those of the <Fragment set:html={s('gov_update', 'Update Service page')} />.</p>
+    <h2>6. Waiting times</h2>
+    <p>National turnaround comes from <Fragment set:html={s('gov_dataset1', 'DBS dataset 1')} />, published on {h.date(h.PERF.publicUpdatedAt)} for {h.month(qe.months[0])} to {h.month(qe.months[qe.months.length - 1])}: certificates sent and the share within target, by level, by month. Average days and the list of delayed police forces come from the <Fragment set:html={s('police_perf', 'DBS police performance report')} /> for {h.month(pol.dataMonth)}. DBS publishes no wait per force in days, so the site says only whether a force was on the delayed list that month. Scotland's figures are those of its <Fragment set:html={s('ds_q1', 'quarter one report')} />, AccessNI's those of the week of {h.date(FEES.northernIreland.turnaround.week)}.</p>
+    <h2>7. What a certificate shows</h2>
+    <p>The filtering calculator applies the <Fragment set:html={s('gov_filtering', 'DBS filtering rules')} /> for certificates issued from {h.date(h.P.rules.filtering.from)}: adult convictions for non-specified offences drop off after {num(h.P.rules.filtering.adultConvictionYears)} years, youth convictions after {num(h.P.rules.filtering.youthConvictionYears, 1)}, adult cautions after {num(h.P.rules.filtering.adultCautionYears)}, unless the offence is specified or the sentence was custodial; youth cautions never appear automatically. Whether a conviction is spent depends on the Rehabilitation of Offenders Act and is not computed here.</p>
+    <h2>8. Tests</h2>
+    <p>On every build, the engine tests check the fees of each body and date, the volunteer rules, the Update Service sums, the filtering rules and the four-nation comparison, and every page file is checked for its title, description, citable block and FAQ. A failing test stops the build.</p>
+    <h2>9. Sources</h2>
+    <ul>{sources.map((x) => <li><a href={x.url} target="_blank" rel="nofollow noopener noreferrer">{x.label.en}</a></li>)}</ul>
+    <p>All are Crown copyright under the <Fragment set:html={s('ogl', 'Open Government Licence v3.0')} />, except the police performance report, a DBS document relayed by Care England, from which only figures are taken. Method version: {LAST_UPDATED}. A figure that looks wrong: <a href={route('contact', lang)}>contact</a>.</p>
+  </div>
+</PageLayout>

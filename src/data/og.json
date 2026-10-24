@@ -1,0 +1,13 @@
+{
+ "accent": "#1D4F91",
+ "symbol": "✓",
+ "variants": [
+  {
+   "file": "og-en.png",
+   "title": "DBS check:\nlevel, cost and wait",
+   "subtitle": "Basic £20 · Enhanced £41 · PVG · AccessNI · admin fee and VAT",
+   "badge": "Fees from 5 October 2026",
+   "brand": "Disclosure Cost"
+  }
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "readOn": "2026-10-24",
+ "checkedOn": "2026-10-24",
+ "licence": "Crown copyright, Open Government Licence v3.0 (GOV.UK: « Most content on GOV.UK is subject to Crown copyright protection and is published under the Open Government Licence (OGL) » ; legislation.gov.uk: « All content is available under the Open Government Licence v3.0 except where otherwise stated » ; disclosure.gov.scot: « All content is available under the Open Government Licence v3.0, except for graphic assets and where otherwise stated » ; nidirect: « You may use and re-use the information featured on this website (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence »)",
+ "englandWales": {
+  "body": "Disclosure and Barring Service",
+  "effectiveFrom": "2026-10-05",
+  "legalBasis": "SI 2026/985, Police Act 1997 (Criminal Records) (Amendment) Regulations 2026, made 7 September 2026, in force 5 October 2026",
+  "legalBasisUrl": "https://www.legislation.gov.uk/uksi/2026/985/made",
+  "announcement": "https://www.gov.uk/government/news/dbs-reduces-fees-for-checks-and-update-service-from-5-october-2026",
+  "announcementDate": "2026-09-09",
+  "source": "https://www.gov.uk/dbs-check-applicant-criminal-record",
+  "products": [
+   {
+    "id": "basic",
+    "fee": 20,
+    "previousFee": 21.5,
+    "volunteerFree": false
+   },
+   {
+    "id": "standard",
+    "fee": 20,
+    "previousFee": 21.5,
+    "volunteerFree": true
+   },
+   {
+    "id": "enhanced",
+    "fee": 41,
+    "previousFee": 49.5,
+    "volunteerFree": true
+   },
+   {
+    "id": "enhanced-barred",
+    "fee": 41,
+    "previousFee": 49.5,
+    "volunteerFree": true
+   },
+   {
+    "id": "adult-first",
+    "fee": 6,
+    "previousFee": null,
+    "volunteerFree": false,
+    "note": "Extra charge on top of an enhanced check with adults' barred list, adult workforce only"
+   }
+  ],
+  "updateService": {
+   "feePerYear": 15,
+   "previousFeePerYear": 16,
+   "volunteerFree": true,
+   "joinWithinDaysOfIssue": 30,
+   "standardAndEnhancedOnly": true,
+   "source": "https://www.gov.uk/dbs-update-service"
+  },
+  "history": [
+   {
+    "from": "2024-12-02",
+    "to": "2026-10-04",
+    "basic": 21.5,
+    "standard": 21.5,
+    "enhanced": 49.5,
+    "updateService": 16,
+    "legalBasis": "SI 2024/1111",
+    "url": "https://www.legislation.gov.uk/uksi/2024/1111/made"
+   },
+   {
+    "from": null,
+    "to": "2024-12-01",
+    "basic": 18,
+    "standard": 18,
+    "enhanced": 38,
+    "updateService": 13,
+    "legalBasis": "fees replaced by SI 2024/1111 (start date of these amounts not read: shown without a start date)",
+    "url": "https://www.legislation.gov.uk/uksi/2024/1111/made"
+   }
+  ],
+  "adminFeeRule": "« Registered Bodies and Responsible Organisations may charge applicants an additional administration fee on top of the DBS fee; DBS is not involved in setting or regulating these charges. » (GOV.UK, 9 September 2026)"
+ },
+ "scotland": {
+  "body": "Disclosure Scotland",
+  "source": "https://www.disclosure.gov.scot/disclosure-scotland-fees",
+  "pageDate": "2025-01-27",
+  "effectiveFrom": "2025-04-01",
+  "unchangedIn2026": "« There will be no additional cost related to the Protecting Vulnerable Groups (PVG) scheme five-year membership change » (https://www.disclosure.gov.scot/news/2026/02/disclosure-act-update-february)",
+  "products": [
+   {
+    "id": "level-1",
+    "fee": 25,
+    "replaces": "Basic disclosure"
+   },
+   {
+    "id": "level-2",
+    "fee": 25,
+    "replaces": "Standard and enhanced disclosure (with or without barred list check)"
+   },
+   {
+    "id": "pvg-join",
+    "fee": 59,
+    "label": "Level 2 PVG, joining the scheme"
+   },
+   {
+    "id": "pvg-existing",
+    "fee": 18,
+    "label": "Level 2 PVG, existing member, same type of regulated role"
+   }
+  ],
+  "volunteers": "PVG scheme membership stays free for volunteers in a qualifying voluntary organisation (fees page, no end date given)",
+  "socialCareWaiver": {
+   "from": "2026-08-01",
+   "to": "2027-07-31",
+   "who": "eligible workers starting a new role in commissioned adult or children's social care services (private, voluntary and independent sectors)",
+   "source": "https://www.disclosure.gov.scot/news/2026/07/quarter-one-2026"
+  },
+  "pvgFiveYearMembershipFrom": "2026-04-01",
+  "processing": {
+   "period": "2026-04-01/2026-06-30",
+   "averageDays": 3.5,
+   "shareWithin14Days": 0.995,
+   "completed": 152622,
+   "source": "https://www.disclosure.gov.scot/news/2026/07/quarter-one-2026"
+  }
+ },
+ "northernIreland": {
+  "body": "AccessNI",
+  "source": "https://www.nidirect.gov.uk/articles/costs-and-turnaround-times",
+  "readOn": "2026-10-24",
+  "products": [
+   {
+    "id": "basic",
+    "fee": 16,
+    "volunteerFree": false
+   },
+   {
+    "id": "standard",
+    "fee": 16,
+    "volunteerFree": true
+   },
+   {
+    "id": "enhanced",
+    "fee": 32,
+    "volunteerFree": true
+   }
+  ],
+  "volunteerRule": "Free for a qualifying volunteer; charged if the volunteer works directly for a statutory organisation or for a non-profit delivering statutory services under contract",
+  "turnaround": {
+   "week": "2026-10-19",
+   "averageDays": {
+    "basic": 3,
+    "standard": 3,
+    "enhanced": 5
+   },
+   "targets": {
+    "basic-direct": "95% within 14 days",
+    "basic-rb": "99% within 7 days",
+    "standard": "99% within 7 days",
+    "enhanced": "70% within 10 days, 95% within 21 days, 98% within 28 days"
+   }
+  }
+ },
+ "vatRate": 0.2,
+ "vatRule": "The statutory fee is outside the scope of VAT; an intermediary's administration fee is a taxable supply at the standard rate (20%). Source to cite in phase 2: HMRC VAT Notice 700/1 / VAT guidance on disbursements; until read, the simulator lets the user tick « fee quoted + VAT »."
+}

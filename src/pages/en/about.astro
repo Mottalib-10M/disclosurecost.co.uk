@@ -1,0 +1,33 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { personSchema, organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { displayDate } from '../../lib/format';
+import { PAGES } from '../../lib/guides';
+import { helpers } from '../../lib/helpers';
+const lang = 'en';
+const h = helpers();
+const { FEE, m } = h;
+const n = PAGES.length + 1;
+const nSrc = Object.keys(h.P.sources).length;
+---
+<PageLayout title="Disclosure Cost: who publishes these DBS fees and levels" description="Disclosure Cost is published by Radif Partners: why it adds the DBS level of a role, the fee since 5 October 2026 and the admin fee in one sum, and its sources." lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path: route('about', lang) }])]} breadcrumbs={[{ label: 'About' }]}>
+  <header class="mb-6"><p class="kicker">About</p><h1 class="mt-1 text-3xl font-bold text-navy-900 md:text-4xl">Who works out the DBS fees and levels on Disclosure Cost</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>Disclosure Cost is published by Radif Partners, a company that builds free tools on public data. This one is for people told to "get a DBS" before a job, a placement, a licence or a volunteering role, and for the small employers, schools, clubs and charities who have to ask for one without a human resources department behind them.</p>
+    <h2>Why this site exists</h2>
+    <p>The fee for an enhanced check fell from {m(FEE.oldEnhanced)} to {m(FEE.enhanced)} on {h.effective}. Weeks later, council and school pages still quoted the old fee, some sellers of checks showed no price before an account was opened, and pages written to catch searches gave fees from years ago. The official pages are exact, but they are spread over the fee regulation, nine eligibility documents, a quarterly spreadsheet and three national bodies.</p>
+    <p>This site therefore gives, in one calculation, the level a role can get under the DBS guidance, the fee in force since {h.effective}, the admin fee and VAT of the intermediary you were quoted, the Update Service if you need it, and the latest published wait, for England, Wales, Scotland and Northern Ireland, with no account, email or phone number asked.</p>
+    <h2>Where the figures come from</h2>
+    <p>Fees come from SI 2026/985 on legislation.gov.uk, the GOV.UK fee pages, Disclosure Scotland and nidirect. Levels come from the DBS eligibility guidance, restated in our words with the section cited. Waits come from DBS dataset 1 and the monthly police performance report. All are Crown copyright under the Open Government Licence v3.0. The {nSrc} official pages used are listed, with their dates, on the <a href={route('method', lang)}>method page</a>.</p>
+    <h2>What we are not</h2>
+    <p>We are not the Disclosure and Barring Service, Disclosure Scotland, AccessNI, the Home Office or a registered umbrella body. We cannot apply for a check, track one, speed one up or tell an employer anything. We do not give legal advice: the organisation recruiting you decides which check it may ask for, and DBS can confirm it.</p>
+    <h2>How the site is paid for</h2>
+    <p>It is free. We sell no checks, take no commission from any umbrella body and link to none of them. If advertising is added one day it will never sit above a calculator, and it cannot use what you type, because nothing you type leaves your browser.</p>
+    <h2>Tell us when a figure is wrong</h2>
+    <p>Write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the page and the figure. The <a href={route('editorial', lang)}>editorial policy</a> explains how corrections are made. The site has {n} indexed pages, listed in the footer.</p>
+    <p class="text-sm text-navy-600">Official pages last read on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-GB')}</time>.</p>
+  </div>
+</PageLayout>

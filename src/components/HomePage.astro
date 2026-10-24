@@ -1,0 +1,116 @@
+---
+/**
+ * Home: the check finder on the first screen (role → level, fee, admin fee, VAT, wait), then the reference
+ * page on criminal record checks in the four nations: fees since 5 October 2026, how a level is decided,
+ * waits, the Update Service, intermediaries. Every figure is read from the data files.
+ */
+import PageLayout from '../layouts/PageLayout.astro';
+import Tool from './Tool.astro';
+import Clamp from './Clamp.astro';
+import { route } from '../i18n/routes';
+import { PAGES } from '../lib/guides';
+import { groupLabel, GROUPS_ORDER } from '../i18n/nav';
+import { helpers } from '../lib/helpers';
+import { LAST_UPDATED, AUTHOR_NAME } from '../data/site-config';
+import { displayDate } from '../lib/format';
+import { faqSchema, webApplicationSchema, websiteSchema, organizationSchema } from '../lib/seo';
+const lang = 'en';
+const h = helpers(true);
+const { FEE, FEES, D, m, pc, num, days, a, src } = h;
+const qe = h.quarter('enhanced'), qb = h.quarter('basic'), qs = h.quarter('standard');
+const LM = h.month(h.lastMonth);
+const pol = h.police;
+const totalDespatched = qe.despatched + qb.despatched + qs.despatched;
+const childRoles = h.rolesAt('enhanced-cbl').length, adultRoles = h.rolesAt('enhanced-abl').length, stdRoles = h.rolesAt('standard').length;
+const sc = FEES.scotland, ni = FEES.northernIreland;
+const saving = FEE.oldEnhanced - FEE.enhanced;
+const resume = `A DBS check costs ${m(FEE.basic)} for a basic or standard certificate and ${m(FEE.enhanced)} for an enhanced one, with or without the barred lists, since ${h.effective}, when SI 2026/985 cut the fees in England and Wales from ${m(FEE.oldBasic)} and ${m(FEE.oldEnhanced)}. Standard and enhanced checks stay free for volunteers, and the Update Service now costs ${m(FEE.update)} a year. On top of the DBS fee, an umbrella body or other registered body may add its own administration fee, which DBS does not set or cap. In Scotland a PVG application costs ${m(FEE.pvgJoin)} and a Level 1 basic disclosure ${m(FEE.scLevel1)}; in Northern Ireland AccessNI charges ${m(FEE.niBasic)} for a basic or standard check and ${m(FEE.niEnhanced)} for an enhanced one. The level a role can get comes from the DBS eligibility guidance: pick a role above to see it, with the total you pay and the latest average wait.`;
+const faqs = [
+  { q: 'How much is a DBS check in 2026?', a: `From ${h.effective} a basic DBS check costs ${m(FEE.basic)}, a standard check ${m(FEE.standard)} and an enhanced check ${m(FEE.enhanced)}, the same price with or without the barred lists. Before that date the fees were ${m(FEE.oldBasic)}, ${m(FEE.oldStandard)} and ${m(FEE.oldEnhanced)}. Any admin fee charged by an umbrella body comes on top, and is set by that body alone.` },
+  { q: 'Who pays for a DBS check, the employer or the employee?', a: 'No rule on GOV.UK says who pays. Practice varies: some employers pay for the checks they ask for, others pass the fee on to the applicant. Ask before you apply. A self-employed person pays for their own check through an umbrella body, and a basic check you request yourself on GOV.UK is paid by you.' },
+  { q: 'Can I get a DBS check on myself?', a: `Yes for a basic check: anyone aged ${h.P.rules.basicMinAge} or over can apply on GOV.UK for ${m(FEE.basic)} when the job is in England or Wales. Standard and enhanced checks go through the organisation recruiting you, or through an umbrella body if you are self-employed in an eligible role such as tutoring or personal care.` },
+  { q: 'Does a DBS certificate expire?', a: 'No. A certificate has no expiry date: it shows what was on record on the day it was printed. Each employer decides whether to accept an older certificate. The Update Service keeps a standard or enhanced certificate current for as long as the yearly subscription is renewed, and lets an employer check it online at no cost.' },
+  { q: 'Is a DBS check the same in Scotland and Northern Ireland?', a: `No. DBS covers England and Wales. In Scotland checks come from Disclosure Scotland, where regulated work goes through the PVG scheme (${m(FEE.pvgJoin)} to join). In Northern Ireland they come from AccessNI. You apply to the body of the nation where the job is, whatever your address.` },
+  { q: 'Is this the official DBS website?', a: 'No. Disclosure Cost is an independent site published by Radif Partners. It reads the fee regulations, the DBS guidance and the published performance data, and turns them into a level, a total cost and a wait. It does not process applications, sells no checks and asks for no email or phone number. Applications are made through GOV.UK or an employer.' },
+];
+const jsonLd = [webApplicationSchema({ name: 'DBS check finder', description: 'Level of criminal record check for a role, its official fee, admin fee and VAT, and the latest average wait in the four UK nations.', path: route('home', lang), lang }), websiteSchema(lang), organizationSchema(lang), faqSchema(faqs, lang)];
+const groups = GROUPS_ORDER.map((x) => ({ g: x, pages: PAGES.filter((p) => p.group === x) })).filter((x) => x.pages.length);
+const feeRows = [
+  ['Basic', `${m(FEE.basic)} <span class="text-navy-500">(was ${m(FEE.oldBasic)})</span>`, `${m(FEE.scLevel1)} Level 1`, m(FEE.niBasic)],
+  ['Standard', `${m(FEE.standard)} <span class="text-navy-500">(was ${m(FEE.oldStandard)})</span>`, `${m(FEE.scLevel2)} Level 2`, m(FEE.niStandard)],
+  ['Enhanced', `${m(FEE.enhanced)} <span class="text-navy-500">(was ${m(FEE.oldEnhanced)})</span>`, `${m(FEE.scLevel2)} Level 2`, m(FEE.niEnhanced)],
+  ['Enhanced with barred lists', m(FEE.enhanced), `${m(FEE.pvgJoin)} PVG (${m(FEE.pvgExisting)} if a member)`, m(FEE.niEnhanced)],
+  ['Volunteer, standard or enhanced', m(0), 'PVG free in a qualifying organisation', 'Free if qualifying'],
+  ['Update Service, a year', `${m(FEE.update)} <span class="text-navy-500">(was ${m(FEE.oldUpdate)})</span>`, 'No equivalent', 'No equivalent'],
+];
+const waitRows = h.update.months.map((mo) => { const r = h.PERF.months[mo as keyof typeof h.PERF.months]; return [h.month(mo), pc(r.basic.share), pc(r.standard.share), pc(r.enhanced.share), num(r.basic.despatched + r.standard.despatched + r.enhanced.despatched)]; });
+---
+<PageLayout title="DBS Check Cost, Level and Waiting Time from 5 October 2026" description={`DBS check fees since 5 October 2026: basic ${m(FEE.basic)}, enhanced ${m(FEE.enhanced)}, PVG ${m(FEE.pvgJoin)}, AccessNI £32. The level for 38 roles, the admin fee, the VAT and the latest waits.`} lang={lang} jsonLd={jsonLd} faqs={faqs}>
+  <header class="mb-3">
+    <h1 class="text-[1.75rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">DBS check: the level for your role and what it really costs</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">Pick a role and the nation of the job: level of check, official fee since {h.effective}, any admin fee and VAT, and the latest average wait.</p>
+  </header>
+  <div data-outil class="mb-4"><Tool tool={{ kind: 'finder', props: { role: 'teacher', nation: 'england' } }} primary={true} /></div>
+  <Clamp text={resume} id="clamp-home" class="mb-3" />
+  <p class="mb-8 text-sm text-navy-600">Fees of SI 2026/985 and of Disclosure Scotland and AccessNI, DBS data published on {h.date(h.PERF.publicUpdatedAt)}, read on <time datetime={LAST_UPDATED}>{displayDate(LAST_UPDATED, 'en-GB')}</time> · {AUTHOR_NAME} · <a href={route('method', lang)} class="underline hover:text-navy-900">How the figures are built</a> · <a href={route('about', lang)} class="underline hover:text-navy-900">About this site</a></p>
+
+  <section aria-labelledby="fees-title">
+    <h2 id="fees-title" class="text-2xl font-bold text-navy-900">Every fee in the four nations, October 2026</h2>
+    <Fragment set:html={h.table(['Check', 'England and Wales (DBS)', 'Scotland (Disclosure Scotland)', 'Northern Ireland (AccessNI)'], feeRows, `Official fees read on ${h.date(LAST_UPDATED)}. England and Wales: SI 2026/985 from ${h.effective}. Admin fees of intermediaries come on top.`, ['l', 'l', 'l', 'l'])} />
+  </section>
+
+  <div class="prose prose-slate max-w-none">
+    <p>Disclosure Cost puts the level a role can get, the fee in force since {h.effective} and the cost added by an intermediary in the same calculation. The DBS fee is fixed by regulation; the admin fee is not. An enhanced check bought through an umbrella body therefore costs {m(FEE.enhanced)} plus whatever that body charges, and VAT on its part if it is registered for VAT. Type the admin fee you were quoted into the finder and the total appears, line by line, with the subscription to the Update Service if you want it.</p>
+
+    <h2>Four levels, and who decides which one you get</h2>
+    <p>A criminal record check in England and Wales comes at four levels. The higher the level, the more it shows and the fewer roles can ask for it. Nobody can choose a level freely: the law lists the roles that may ask for each one, and the organisation recruiting you must stay within that list. The <Fragment set:html={src('gov_eligibility', 'DBS eligibility guidance')} />, last updated on {h.date('2026-09-01')}, describes those roles in nine documents.</p>
+    <ul>
+      <li><strong>Basic</strong> ({m(FEE.basic)}): unspent convictions and conditional cautions only. Any employer can ask for one, for any job, and you can request it yourself. See the <Fragment set:html={a('basic-dbs-check', 'basic check page')} />.</li>
+      <li><strong>Standard</strong> ({m(FEE.standard)}): spent and unspent convictions, cautions, reprimands and final warnings, minus those removed by the filtering rules. It is reserved for listed professions and licences: solicitors, accountants, security licences, prison staff. The finder has {stdRoles} of them; the <Fragment set:html={a('standard-dbs-check', 'standard check page')} /> explains the list.</li>
+      <li><strong>Enhanced</strong> ({m(FEE.enhanced)}): what a standard check shows, plus information a local police force thinks relevant to the role. It covers work with children or adults that does not meet the conditions of regulated activity, and some licences such as gambling.</li>
+      <li><strong>Enhanced with barred lists</strong> ({m(FEE.enhanced)}): the same, plus a search of the children's list, the adults' list or both. Only regulated activity can ask for it. In the finder, {childRoles} roles reach the children's list and {adultRoles} the adults' list; the <Fragment set:html={a('dbs-barred-list', 'barred list page')} /> sets out the conditions.</li>
+    </ul>
+    <p>Two tests do most of the sorting for work with children: what you do (teaching, care, supervision, advice, driving) and how often (more than three days in any 30, or overnight between 2am and 6am). With adults, once is enough: a single episode of personal care or health care is regulated activity. The <Fragment set:html={a('which-dbs-check-do-i-need', 'level finder by role')} /> and the <Fragment set:html={a('dbs-eligibility', 'question-by-question eligibility page')} /> walk through both tests.</p>
+
+    <h2>What the 5 October 2026 fee cut changed</h2>
+    <p>DBS announced on {h.announced} that its fees would fall, and the <Fragment set:html={src('si_2026_985', 'Police Act 1997 (Criminal Records) (Amendment) Regulations 2026')} /> gave the cut legal effect from {h.effective}. The enhanced check dropped by {m(saving)}, the largest reduction, because DBS sets each fee at the cost of delivering it and is funded by those fees alone. Basic and standard checks fell by {m(FEE.oldBasic - FEE.basic)} and the Update Service by {m(FEE.oldUpdate - FEE.update)} a year. The previous fees, in force since 2 December 2024, came from <Fragment set:html={src('si_2024_1111', 'SI 2024/1111')} />.</p>
+    <p>The fee that applies is the one in force on the day DBS receives the application, not the day the employer started the process. Some council, school and umbrella body pages still showed {m(FEE.oldEnhanced)} for an enhanced check weeks after the cut. If you were quoted the old fee for an application sent after {h.effective}, ask the intermediary to correct it. The calculator below shows the difference on one check or on a whole year of checks.</p>
+  </div>
+  <div class="mb-4"><Tool tool={{ kind: 'mini:oldnew', props: { level: 2, n: 1 } }} idPrefix="h1" /></div>
+
+  <div class="prose prose-slate max-w-none">
+    <h2>How long checks take at the moment</h2>
+    <p>DBS publishes each quarter the share of certificates sent within its targets: {days(qb.targetDays)} for a basic check, {days(qs.targetDays)} for a standard one and {days(qe.targetDays)} for an enhanced one, with target shares of {pc(qb.targetShare, 0)} for basic and standard and {pc(qe.targetShare, 0)} for enhanced. From {h.month(qe.months[0])} to {h.month(qe.months[qe.months.length - 1])}, {num(totalDespatched)} certificates were sent. {pc(qe.share)} of enhanced checks met the {days(qe.targetDays)} target, below the {pc(qe.targetShare, 0)} goal, while {pc(qb.share)} of basic checks met theirs.</p>
+  </div>
+  <Fragment set:html={h.table(['Month', 'Basic within target', 'Standard within target', 'Enhanced within target', 'Certificates sent'], waitRows, `DBS dataset 1, published on ${h.date(h.PERF.publicUpdatedAt)}. Targets: basic ${days(qb.targetDays)}, standard ${days(qs.targetDays)}, enhanced ${days(qe.targetDays)}.`, ['l', 'r', 'r', 'r', 'r'])} />
+  <div class="prose prose-slate max-w-none">
+    <p>The slow part of an enhanced check is the police. Every force that covers an address you gave for the last years may be asked whether it holds relevant information. In the DBS report for {h.month(pol.dataMonth)}, forces took {days(pol.policeReturnAvgDays)} on average to reply, and {num(pol.delayedForces!.length)} were named as behind their target, among them {pol.delayedForces!.slice(0, 3).join(', ')}. The average enhanced check still took {days(pol.avgDays.enhanced)} from start to finish that month, because most applicants are cleared without a police reply. The <Fragment set:html={a('how-long-does-a-dbs-check-take', 'waiting time page')} /> lists every delayed force.</p>
+    <p>Disclosure Scotland completed {num(sc.processing.completed)} applications from April to June 2026 in {days(sc.processing.averageDays)} on average, {pc(sc.processing.shareWithin14Days)} of them within 14 days. AccessNI reported averages of {days(ni.turnaround.averageDays.basic)} for basic and {days(ni.turnaround.averageDays.enhanced)} for enhanced checks in the week of {h.date(ni.turnaround.week)}.</p>
+
+    <h2>The Update Service: when {m(FEE.update)} a year saves money</h2>
+    <p>The <Fragment set:html={src('gov_update', 'DBS Update Service')} /> keeps a standard or enhanced certificate live. You subscribe within {num(FEES.englandWales.updateService.joinWithinDaysOfIssue)} days of the certificate date, or with the application reference while the check is running, and any employer you authorise can then check online, for free and at once, whether anything has changed since. It pays off as soon as it replaces one new check: a single enhanced check costs {m(FEE.enhanced)} before any admin fee, against {m(FEE.update)} for a year of subscription. It does not help if the next role needs a different level or workforce, or if the new employer insists on a fresh certificate. In {h.month(h.lastMonth)}, {num(h.update.last.active)} subscriptions were active and {num(h.update.last.newPaid)} paid ones were added. The <Fragment set:html={a('dbs-update-service', 'Update Service page')} /> compares the two routes over several years.</p>
+
+    <h2>Umbrella bodies, admin fees and VAT</h2>
+    <p>An organisation that asks for fewer than {num(h.P.rules.umbrellaThreshold)} standard or enhanced checks a year must go through an umbrella body, a company or charity registered with DBS to send applications. Self-employed people and personal employees go through one too. Each umbrella body sets its own fee for checking identity and handling the form, and the <Fragment set:html={src('gov_fee_news', 'DBS announcement of the fee cut')} /> states that DBS is not involved in setting or regulating these charges. The GOV.UK list of bodies is the <Fragment set:html={src('gov_umbrella', 'find a DBS umbrella body')} /> service.</p>
+    <p>The statutory fee is passed on at cost. Under <Fragment set:html={src('vat_700', 'HMRC VAT Notice 700, section 25')} />, a sum paid to a third party as the client's agent can be treated as a disbursement outside VAT when its conditions are met, while the intermediary's own charge for its service follows its VAT status. A VAT-registered umbrella body therefore adds 20 % to its admin fee, not to the DBS fee. Quotes are sometimes shown before VAT: the finder has a setting for that case, and the <Fragment set:html={a('dbs-umbrella-body', 'umbrella body page')} /> explains what the admin fee pays for.</p>
+
+    <h2>Scotland and Northern Ireland</h2>
+    <p>Since 1 April 2025 Disclosure Scotland issues a Level 1 disclosure, the basic check, for {m(FEE.scLevel1)}, and a Level 2 disclosure for {m(FEE.scLevel2)} in place of the standard and enhanced checks. Regulated work with children or protected adults goes through the PVG scheme: {m(FEE.pvgJoin)} to join, {m(FEE.pvgExisting)} for an existing member taking another role of the same type, free for volunteers in a qualifying organisation, and free from {h.date(sc.socialCareWaiver.from)} to {h.date(sc.socialCareWaiver.to)} for new workers in commissioned social care. Membership became time limited to five years from {h.date(sc.pvgFiveYearMembershipFrom)}. See the <Fragment set:html={a('pvg-scheme', 'PVG scheme page')} />.</p>
+    <p>In Northern Ireland, <Fragment set:html={src('ani_fees', 'AccessNI')} /> charges {m(FEE.niBasic)} for a basic check, {m(FEE.niStandard)} for a standard one and {m(FEE.niEnhanced)} for an enhanced one, free for qualifying volunteers. The <Fragment set:html={a('criminal-record-check-uk', 'four-nation comparison')} /> shows the same role in each system.</p>
+
+    <h2>What this site is, and what it is not</h2>
+    <p>Disclosure Cost is published by Radif Partners, an independent company. It is not DBS, Disclosure Scotland, AccessNI or an umbrella body. It cannot apply for a check, track one or speed one up, and it never asks for your name, date of birth or address. Every fee is read from the regulation or the official fee page, every wait from the published data, with its date; the <a href={route('method', lang)}>method page</a> lists each source and what is left out. The level shown for a role is the one the guidance allows: the recruiting organisation decides, and a role can always ask for less.</p>
+  </div>
+
+  <section class="mt-12" aria-labelledby="guides-title">
+    <h2 id="guides-title" class="text-2xl font-bold text-navy-900">Every page</h2>
+    <div class="mt-4 grid gap-x-10 gap-y-6 md:grid-cols-2 lg:grid-cols-3">
+      {groups.map(({ g, pages }) => (
+        <div>
+          <h3 class="border-b border-navy-200 pb-1 text-sm font-semibold uppercase tracking-wide text-navy-600">{groupLabel(g)}</h3>
+          <ul class="mt-2 space-y-2">{pages.map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline-offset-2 hover:underline">{p.nav}</a><span class="block text-sm text-navy-600">{p.card}</span></li>)}</ul>
+        </div>
+      ))}
+    </div>
+  </section>
+</PageLayout>

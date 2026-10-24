@@ -1,0 +1,20 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { SITE_URL } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema } from '../../lib/seo';
+const lang = 'en';
+const code = `<iframe src="${SITE_URL}/embed/dbs-check-finder/" title="DBS check finder" width="100%" height="760" style="border:0;max-width:1000px" loading="lazy"></iframe>`;
+---
+<PageLayout title="Embed the DBS check finder on your website for free" description="Put the DBS check finder on your website: one iframe, the level for 38 roles, the fee since 5 October 2026, admin fee, VAT and wait, no sign-up, no tracking and no cookies." lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Embed', path: route('widget', lang) }])]} breadcrumbs={[{ label: 'Embed' }]} showAuthor={false}>
+  <header class="mb-6">
+    <h1 class="text-3xl font-bold text-navy-900 md:text-4xl">Embed the DBS check finder</h1>
+    <p class="mt-3 text-lg text-navy-700">For a school's recruitment page, a sports club, a charity's volunteer page or a council's licensing page: visitors pick a role and see the level, the fee and the wait.</p>
+  </header>
+  <div class="prose prose-slate max-w-none">
+    <pre class="overflow-x-auto rounded-lg bg-navy-900 p-4 text-sm text-white"><code>{code}</code></pre>
+    <p>Conditions: keep the credit line under the finder visible and use it as it is, without warranty. When a fee changes, the embedded finder updates itself.</p>
+    <p>Nothing your visitors type reaches us and the frame sets no cookie. Questions: <a href={route('contact', lang)}>contact</a>.</p>
+  </div>
+  <div class="mt-8 overflow-hidden rounded-xl border border-navy-200"><iframe src="/embed/dbs-check-finder/" title="DBS check finder" width="100%" height="760" style="border:0" loading="lazy"></iframe></div>
+</PageLayout>

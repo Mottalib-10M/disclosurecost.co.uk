@@ -1,0 +1,18 @@
+{
+ "readOn": "2026-10-24",
+ "sources": [
+  {"what": "Fees E&W in force 5 Oct 2026", "url": "https://www.legislation.gov.uk/uksi/2026/985/made", "licence": "OGL v3 (« All content is available under the Open Government Licence v3.0 except where otherwise stated »)"},
+  {"what": "Previous fees (2 Dec 2024)", "url": "https://www.legislation.gov.uk/uksi/2024/1111/made", "licence": "OGL v3"},
+  {"what": "Fee cut announcement, 9 Sep 2026", "url": "https://www.gov.uk/government/news/dbs-reduces-fees-for-checks-and-update-service-from-5-october-2026", "licence": "OGL v3 (GOV.UK terms: « Most content on GOV.UK is subject to Crown copyright protection and is published under the Open Government Licence (OGL) »)"},
+  {"what": "Fees shown to employers, Adult First £6", "url": "https://www.gov.uk/dbs-check-applicant-criminal-record", "licence": "OGL v3"},
+  {"what": "Update Service £15, 30-day rule, volunteer test", "url": "https://www.gov.uk/dbs-update-service", "licence": "OGL v3"},
+  {"what": "Eligibility guidance (9 guides, updated 1 Sep 2026)", "url": "https://www.gov.uk/government/collections/dbs-eligibility-guidance", "licence": "OGL v3"},
+  {"what": "Self-employed route (21 Jan 2026)", "url": "https://www.gov.uk/guidance/dbs-checks-for-self-employed-people-and-personal-employees", "licence": "OGL v3"},
+  {"what": "DBS dataset 1 (quarterly xlsx, Apr–Jun 2026, published 3 Aug 2026)", "url": "https://www.gov.uk/government/statistics/dbs-dataset-1-dbs-checks-the-dbs-update-service-and-disputes", "licence": "OGL v3"},
+  {"what": "DBS Police Performance Information, Aug 2026 (July data)", "url": "https://www.careengland.org.uk/wp-content/uploads/2026/08/Police-Performance-Information-August-26.pdf", "licence": "DBS document relayed by Care England: facts only, cited"},
+  {"what": "Disclosure Scotland fees", "url": "https://www.disclosure.gov.scot/disclosure-scotland-fees", "licence": "OGL v3 (« All content is available under the Open Government Licence v3.0, except for graphic assets and where otherwise stated »)"},
+  {"what": "Disclosure Scotland Q1 2026 (waiver, processing)", "url": "https://www.disclosure.gov.scot/news/2026/07/quarter-one-2026", "licence": "OGL v3"},
+  {"what": "AccessNI fees and turnaround", "url": "https://www.nidirect.gov.uk/articles/costs-and-turnaround-times", "licence": "OGL v3 (« You may use and re-use the information featured on this website (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence »)"},
+  {"what": "Umbrella body directory (handling fees)", "url": "https://dbs-ub-directory.homeoffice.gov.uk/", "licence": "not read: Cloudflare challenge (HTTP 403) for any automated read; not bypassed"}
+ ]
+}

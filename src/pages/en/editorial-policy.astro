@@ -1,0 +1,27 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`Editorial policy of ${SITE_NAMES[lang]}: sources and fixes`} description="Which regulations, DBS guidance and official datasets Disclosure Cost relies on, which sources it refuses, how indicative levels are worded, when fees are re-read and how errors are fixed." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Editorial and corrections policy</h1>
+    <p>People use these pages before paying for a check, or before telling a volunteer or a new recruit which check to request. A fee from last year or a level the role cannot get costs them money and weeks, so every figure points back to the official text it came from.</p>
+    <h2>Who is responsible</h2><p>{AUTHOR_NAME}, reachable at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>The sources we use</h2>
+    <ul>
+      <li>the fee regulations on legislation.gov.uk (SI 2026/985 and, for earlier fees, SI 2024/1111);</li>
+      <li>GOV.UK pages on DBS checks, the Update Service, filtering and the self-employed route, and the nine DBS eligibility documents;</li>
+      <li>DBS dataset 1 for turnaround and Update Service figures, and the monthly DBS police performance report;</li>
+      <li>the fee and performance pages of Disclosure Scotland, mygov.scot and nidirect (AccessNI);</li>
+      <li>HMRC VAT guidance for the treatment of admin fees.</li>
+    </ul>
+    <h2>Sources we refuse</h2><p>Umbrella bodies, screening companies and other check sites never provide a fee or a rule here, however well they rank. A figure that no official page publishes, such as a wait per police force in days, is not shown.</p>
+    <h2>Indicative levels</h2><p>The level shown for a role is the highest one the DBS guidance allows for it. It is worded as indicative: a role can always ask for a lower level, and the recruiting organisation decides. We do not give legal advice.</p>
+    <h2>Review cycle</h2><p>Fees are re-read whenever DBS, Disclosure Scotland or AccessNI announce a change, and at least every quarter when DBS publishes its dataset. A script compares the official amounts with the data file and stops the build when they differ.</p>
+    <h2>Corrections</h2>
+    <ol><li>We open the official page again.</li><li>We correct the data file and add a test for the case.</li><li>The pages rebuild and show the new date.</li></ol>
+    <h2>Independence</h2><p>No umbrella body, employer or screening company pays for or reviews what is published here, and the site carries no affiliate link. Version: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

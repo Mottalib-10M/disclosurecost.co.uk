@@ -1,0 +1,95 @@
+{
+ "source": "https://www.gov.uk/government/statistics/dbs-dataset-1-dbs-checks-the-dbs-update-service-and-disputes",
+ "file": "https://assets.publishing.service.gov.uk/media/6a671989f02dfa8e780938c2/Publication_Scheme_Dataset_1_-_Q1_-_Apr_-_Jun_2026.xlsx",
+ "fileTitle": "DBS dataset 1: April 2026 to June 2026",
+ "publicUpdatedAt": "2026-08-03",
+ "licence": "Open Government Licence v3.0",
+ "months": {
+  "2026-04": {
+   "enhanced": {
+    "despatched": 308292,
+    "withinTarget": 221863,
+    "targetDays": 14,
+    "targetShare": 0.8,
+    "share": 0.7197
+   },
+   "standard": {
+    "despatched": 31519,
+    "withinTarget": 28480,
+    "targetDays": 3,
+    "targetShare": 0.85,
+    "share": 0.9036
+   },
+   "basic": {
+    "despatched": 236531,
+    "withinTarget": 211366,
+    "targetDays": 2,
+    "targetShare": 0.85,
+    "share": 0.8936
+   }
+  },
+  "2026-05": {
+   "enhanced": {
+    "despatched": 319154,
+    "withinTarget": 235358,
+    "targetDays": 14,
+    "targetShare": 0.8,
+    "share": 0.7374
+   },
+   "standard": {
+    "despatched": 31628,
+    "withinTarget": 28464,
+    "targetDays": 3,
+    "targetShare": 0.85,
+    "share": 0.9
+   },
+   "basic": {
+    "despatched": 212310,
+    "withinTarget": 189070,
+    "targetDays": 2,
+    "targetShare": 0.85,
+    "share": 0.8905
+   }
+  },
+  "2026-06": {
+   "enhanced": {
+    "despatched": 384558,
+    "withinTarget": 288198,
+    "targetDays": 14,
+    "targetShare": 0.8,
+    "share": 0.7494
+   },
+   "standard": {
+    "despatched": 36144,
+    "withinTarget": 32934,
+    "targetDays": 3,
+    "targetShare": 0.85,
+    "share": 0.9112
+   },
+   "basic": {
+    "despatched": 255792,
+    "withinTarget": 221004,
+    "targetDays": 2,
+    "targetShare": 0.85,
+    "share": 0.864
+   }
+  }
+ },
+ "updateService": {
+  "2026-04": {
+   "newPaid": 56791,
+   "newVolunteer": 13311,
+   "active": 2849370
+  },
+  "2026-05": {
+   "newPaid": 55179,
+   "newVolunteer": 13024,
+   "active": 2867918
+  },
+  "2026-06": {
+   "newPaid": 62407,
+   "newVolunteer": 12669,
+   "active": 2889110
+  }
+ }
+}

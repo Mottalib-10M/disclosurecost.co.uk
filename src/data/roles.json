@@ -1,0 +1,311 @@
+{
+ "readOn": "2026-10-24",
+ "sources": "data/eligibility-sources.json",
+ "disclaimer": "Indicative level under DBS eligibility guidance (England and Wales). The recruiting organisation decides; laws make checks possible, not mandatory.",
+ "roles": [
+  {
+   "id": "teacher",
+   "label": "Teacher in a school",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "children-barred §2",
+   "note": "Teaching children on more than 3 days in 30 days is regulated activity."
+  },
+  {
+   "id": "teaching-assistant",
+   "label": "Teaching assistant",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "children-barred §2",
+   "note": "Same period condition as teaching."
+  },
+  {
+   "id": "school-cleaner",
+   "label": "Cleaner, receptionist or caretaker in a school",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "children-barred §3",
+   "note": "Specified establishment: all 4 criteria (frequency, contact, purpose, not temporary)."
+  },
+  {
+   "id": "school-contractor-occasional",
+   "label": "Occasional contractor in a school",
+   "level": "enhanced",
+   "workforce": "child",
+   "ref": "children-barred §3 / children-enhanced",
+   "note": "Temporary or occasional work fails the 4th criterion; see enhanced without barred list."
+  },
+  {
+   "id": "childminder",
+   "label": "Registered childminder",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "children-barred §2",
+   "note": "Registering as a childminder or childcare provider."
+  },
+  {
+   "id": "childminder-household",
+   "label": "Person aged 16+ living or working where childminding takes place",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "children-barred §5",
+   "note": "Not regulated activity, but eligible."
+  },
+  {
+   "id": "foster-carer",
+   "label": "Foster carer",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "children-barred §2",
+   "note": "Registering to be a foster carer or private foster carer."
+  },
+  {
+   "id": "adopter",
+   "label": "Prospective adoptive parent or special guardian",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "children-barred §5",
+   "note": "Plus adults aged 18+ in the household."
+  },
+  {
+   "id": "tutor",
+   "label": "Private tutor (self-employed)",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "self-employed (example 1)",
+   "note": "Applies through an umbrella body; the parent cannot apply for you."
+  },
+  {
+   "id": "sports-coach",
+   "label": "Sports coach or youth club leader for children",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "children-barred §2",
+   "note": "If more than 3 days in 30 days or overnight 2am–6am; otherwise enhanced without barred list."
+  },
+  {
+   "id": "school-bus-driver",
+   "label": "Driver taking children to school",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "children-barred §2 (scenario 5)",
+   "note": "Driving a vehicle for children on more than 3 days in 30 days."
+  },
+  {
+   "id": "online-moderator",
+   "label": "Moderator of an online service mainly for children",
+   "level": "enhanced-cbl",
+   "workforce": "child",
+   "ref": "children-barred §2.1",
+   "note": ""
+  },
+  {
+   "id": "care-worker",
+   "label": "Care worker giving personal care to adults",
+   "level": "enhanced-abl",
+   "workforce": "adult",
+   "ref": "adults-barred §2.2",
+   "note": "Once is enough for adults."
+  },
+  {
+   "id": "care-home-staff-no-care",
+   "label": "Care home worker without personal care (kitchen, admin)",
+   "level": "enhanced",
+   "workforce": "adult",
+   "ref": "adults-enhanced",
+   "note": "Check enhanced without adults' barred list guidance."
+  },
+  {
+   "id": "nurse",
+   "label": "Nurse, doctor or other regulated health professional",
+   "level": "enhanced-abl",
+   "workforce": "adult",
+   "ref": "adults-barred §2.1",
+   "note": "Add the children's barred list if the role also treats children."
+  },
+  {
+   "id": "healthcare-assistant",
+   "label": "Healthcare assistant under a health professional",
+   "level": "enhanced-abl",
+   "workforce": "adult",
+   "ref": "adults-barred §2.1",
+   "note": ""
+  },
+  {
+   "id": "social-worker",
+   "label": "Social worker for adults",
+   "level": "enhanced-abl",
+   "workforce": "adult",
+   "ref": "adults-barred §2.3",
+   "note": ""
+  },
+  {
+   "id": "hospital-porter",
+   "label": "Hospital porter or patient transport driver",
+   "level": "enhanced-abl",
+   "workforce": "adult",
+   "ref": "adults-barred §2.6",
+   "note": "Conveying adults who cannot travel alone because of age, illness or disability."
+  },
+  {
+   "id": "support-worker-shopping",
+   "label": "Support worker handling an adult's cash, bills or shopping",
+   "level": "enhanced-abl",
+   "workforce": "adult",
+   "ref": "adults-barred §2.4 (scenario 1)",
+   "note": ""
+  },
+  {
+   "id": "care-manager",
+   "label": "Day-to-day manager of carers",
+   "level": "enhanced-abl",
+   "workforce": "adult",
+   "ref": "adults-barred §2.7",
+   "note": ""
+  },
+  {
+   "id": "taxi-driver",
+   "label": "Taxi or private hire driver (licence)",
+   "level": "enhanced-both",
+   "workforce": "other",
+   "ref": "other-enhanced §2",
+   "note": "When the licensing authority asks, submitted in the Other workforce."
+  },
+  {
+   "id": "pedicab-london",
+   "label": "Pedicab licence in London",
+   "level": "enhanced-both",
+   "workforce": "other",
+   "ref": "other-enhanced §2",
+   "note": ""
+  },
+  {
+   "id": "gambling-licence",
+   "label": "Gambling operating or personal licence",
+   "level": "enhanced",
+   "workforce": "other",
+   "ref": "other-enhanced §3",
+   "note": ""
+  },
+  {
+   "id": "judicial",
+   "label": "Judge, magistrate, coroner or justice of the peace (appointment)",
+   "level": "enhanced",
+   "workforce": "other",
+   "ref": "other-enhanced §3",
+   "note": ""
+  },
+  {
+   "id": "immigration-adviser",
+   "label": "Registered immigration adviser",
+   "level": "enhanced",
+   "workforce": "other",
+   "ref": "other-enhanced §3",
+   "note": ""
+  },
+  {
+   "id": "crown-employee",
+   "label": "Employment by the Crown",
+   "level": "enhanced",
+   "workforce": "other",
+   "ref": "other-enhanced §3",
+   "note": ""
+  },
+  {
+   "id": "solicitor",
+   "label": "Solicitor or barrister (on entry to the profession)",
+   "level": "standard",
+   "workforce": "other",
+   "ref": "standard §2",
+   "note": "Only on entry, not when moving between employers."
+  },
+  {
+   "id": "accountant",
+   "label": "Chartered or certified accountant (on entry)",
+   "level": "standard",
+   "workforce": "other",
+   "ref": "standard §2",
+   "note": ""
+  },
+  {
+   "id": "vet",
+   "label": "Veterinary surgeon (on entry)",
+   "level": "standard",
+   "workforce": "other",
+   "ref": "standard §2",
+   "note": ""
+  },
+  {
+   "id": "actuary",
+   "label": "Actuary (on entry)",
+   "level": "standard",
+   "workforce": "other",
+   "ref": "standard §2",
+   "note": ""
+  },
+  {
+   "id": "football-steward",
+   "label": "Football steward",
+   "level": "standard",
+   "workforce": "other",
+   "ref": "standard §4",
+   "note": ""
+  },
+  {
+   "id": "security-sia",
+   "label": "Applying for an SIA licence (door supervisor, security)",
+   "level": "standard",
+   "workforce": "other",
+   "ref": "standard §4",
+   "note": ""
+  },
+  {
+   "id": "fca-approved",
+   "label": "FCA, PRA or Bank of England regulated role",
+   "level": "standard",
+   "workforce": "other",
+   "ref": "standard §4",
+   "note": ""
+  },
+  {
+   "id": "prison-staff",
+   "label": "Any role in a prison or young offender institution",
+   "level": "standard",
+   "workforce": "other",
+   "ref": "standard §4",
+   "note": ""
+  },
+  {
+   "id": "fire-rescue",
+   "label": "Fire and rescue authority employee",
+   "level": "standard",
+   "workforce": "other",
+   "ref": "standard §4",
+   "note": ""
+  },
+  {
+   "id": "court-staff",
+   "label": "Court officer, court security, enforcement officer",
+   "level": "standard",
+   "workforce": "other",
+   "ref": "standard §3",
+   "note": ""
+  },
+  {
+   "id": "delivery-driver",
+   "label": "Delivery driver, retail, office or warehouse job",
+   "level": "basic",
+   "workforce": "other",
+   "ref": "children §3 (last line)",
+   "note": "Any employer can ask for a basic check; nothing more unless the role meets a listed criterion."
+  },
+  {
+   "id": "self-employed-trade",
+   "label": "Self-employed tradesperson (plumber, electrician)",
+   "level": "basic",
+   "workforce": "other",
+   "ref": "children §3 (last line)",
+   "note": "Standard or enhanced only if a listed activity applies."
+  }
+ ]
+}

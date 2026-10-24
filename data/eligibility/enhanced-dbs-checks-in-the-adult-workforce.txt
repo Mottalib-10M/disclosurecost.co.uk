@@ -1,0 +1,90 @@
+https://www.gov.uk/government/publications/work-with-adults-enhanced-without-adults-barred-list-checks/enhanced-dbs-checks-in-the-adult-workforce 2026-09-01T08:47:00+01:00
+ 1. Introduction
+ If the role is not regulated activity with adults, and therefore eligible for an Enhanced with Adult’s Barred List DBS check, it may still be eligible for an Enhanced DBS check only.
+ An organisation needs to consider either if the roles are named in legislation or whether they undertake ‘work with adults’.
+ If after considering the below the role is not eligible for an Enhanced check, consider if there is eligibility for a Standard DBS check. Standard DBS checks are only relevant to a few roles.
+ This guidance will support you with this assessment.
+ 2. Work with Adults
+ Work with adults is a set of criteria in legislation which allows for access to an Enhanced DBS check in the adult workforce (no access to the barred list).  If the below 3 steps are met an organisation can apply for this type of DBS check.
+ Step 1 
+ Identify the adults - Check step 1a and 1b below to see if the job involves working with adults receiving specific services.
+ Step 2 
+ Identify the activities - Refer to step 2 to determine the activities the job holder will perform for these adults.
+ Step 3 
+ Frequency of activities – Refer to step 3 to ensure the activities are performed frequently enough to justify an enhanced DBS application.
+ 2.1 Step 1a
+ Does the role work with adults in receipt of the below services:
+ a) residential accommodation provided for an adult in connection with any care or nursing they require
+ b) accommodation provided for an adult who is or has been
+ a. a pupil attending a residential special school
+ b. an independent school in England specially organised to make special educational provision for pupils with special educational needs or is in Wales and is specially organised to make additional learning provision for pupils with additional learning needs
+ c. an institution within the further education section (within the meaning of section 91 of the Further and Higher Education Act 1992) which provides accommodation for children (v) a 16 to 19 Academy, within the meaning of section 1B of the Academies Act 2010, which provides accommodation for children
+ c) sheltered housing
+ d) care of any description or assistance provided by reason of his age, health or any disability he has, which is provided to the adult in the place where he is, for the time being, living, whether provided continuously or not
+ e) any form of health care, including treatment, therapy or palliative care of any description
+ f) support, assistance or advice for the purpose of developing an adult’s capacity to live independently in accommodation, or sustaining their capacity to do so
+ g) any service provided specifically for adults because of their age, any disability, physical or mental illness,
+ h) any service provided specifically to an expectant or nursing mother in receipt of residential accommodation pursuant to arrangements made under section 21(1)(aa) of the National Assistance Act 1948 or care pursuant to paragraph 1 of Schedule 20 to the National Health Service Act 2006
+ 2.2 Step 1b
+ OR is the role is working with adults who fit into one of the below categories:
+ a) An adult who is in lawful custody in a prison, a remand centre, young offender institution or a secure training centre, or an attendance centre.
+ b) An adult who is detained in a removal centre or short-term holding facility or in pursuance of escort arrangements.
+ c) an adult who is supervised by virtue of an order of a court by a person exercising functions for the purposes of Step 1 of the Criminal Justice and Court Services Act 2000
+ d) an adult who is supervised by a person acting for the purposes mentioned in section 1(1) of the Offender Management Act 2007
+ e) an adult in receipt of assistance with the conduct of their affairs in situations where –
+ a. there is a lasting or enduring power of attorney
+ b. an order under section 16 of that Act has been made by the Court of Protection in relation to the making of decisions on the adult’s behalf,
+ c. an independent mental capacity advocate is or is to be appointed in respect of the adult
+ d. a representative is or is to be appointed to receive payments on the adult’s behalf in pursuance of regulations made under the Social Security Administration Act 1992
+ f) payments are made to the adult or to another person on the adult’s behalf under arrangements made under section 57 of the Health and Social Care Act 2001 (direct payments)
+ g) payments are made to the adult or to another person on the adult’s behalf under section 12A(1) or under regulations made under section 12A(a) of the National Health Service Act 2006 or under regulations made under section 12A(4) of that Act (direct payments for health care)
+ If you have identified that the adults someone is to work with are in receipt of one of the above services or activities, proceed to step 2.
+ 2.3 Step 2
+ Does the role undertake any of the below activities with adults that meet the criteria in step 1.
+ a) any form of care or supervision;
+ b) any form of treatment or therapy;
+ c) any form of training, teaching, instruction, assistance, advice or guidance provided wholly or mainly for adults who receive a health or social care service within the meaning of Step 1a or a specified activity within the meaning of step 1b
+ d) moderating a public electronic interactive communication service which is likely to be used wholly or mainly by adults who receive a health or social care service within the meaning of step 1a or step 1b.
+ a. A person moderates a public electronic interactive communication service if, they have monitor the content, can control access to the content and has contact with the user of the service.
+ e) any form of work carried out in a care home (for the purposes of the Care Standards Act 2000) which is exclusively or mainly for adults, whether or not for gain, that gives the person carrying out the work the opportunity to have contact with the adults resident at that care home
+ f) representation of, or advocacy services for, adults who receive a health or social care service within the meaning step 1a or step 1b, by a service which has been approved by the Secretary of State or created by any enactment, and which is of such a kind as to enable the person to have access to such adults in the course of his normal duties in providing such services
+ g) the conveying of an adult who receives a health or social care service within the meaning of step 1a or step 1b whether or not the adult is accompanied by a person caring for them.
+ If you have identified activities relevant to the role in step 2, proceed to step 3.
+ 2.4 Step 3
+ Does the role undertake activities from step 2 to adults that meet the criteria in step 1?
+ If yes, is this work undertaken often enough to meet the below period condition:
+ Does it take place on more than three days in any period of 30 days;
+ Or at any time between 2am and 6am and the activity gives the person the opportunity to have face-to-face contact with the adult;
+ or at least once a week on an ongoing basis
+ If the criteria from all 3 steps is met, the role is eligible for an Enhanced DBS check in the adults workforce.
+ Should you wish to view the relevant legislation you can do so in the Work with adults legislation - GOV.UK 
+ 3. Examples
+ For sector specific guidance, including examples please see the below webpages:
+ DBS checks in sport - working with adults - GOV.UK 
+ Working with adults in the charity sector and overseas aid organisations - GOV.UK 
+ DBS checks for adult social care roles - GOV.UK 
+ Example:
+ Peter volunteers for a local charity that is set up to support adults with autism. His role is to drive members of the charity on trips to local leisure facilities. Peter volunteers every Saturday morning.
+ Peter is eligible for an Enhanced DBS check in the adult workforce.
+ This is because he is driving adults (step 2, g) who meet the criteria in step 1a (g) and he undertakes this work often enough to meet the period condition in step 3.
+ If Peter was only expected to volunteer once a month, he would be eligible for a Basic DBS check as he would not be undertaking this work often enough to meet all the eligible criteria.
+ Example:
+ Mohammed works for a company that provides employment coaching to individuals with mental and physical disabilities 3 days a week.
+ He provides these individuals with advice and guidance to help them get into work.
+ Mohammed is eligible for an Enhanced DBS check in the adult workforce.
+ This is because he is providing advice and guidance wholly or mainly to adults (step 2, c) who meet the criteria in step 1a (g) and he undertakes this work often enough to meet the period condition in step 3.
+ 4. Specific Roles 
+ These positions are eligible for an Enhanced DBS check (adult workforce) because of the job title or responsibilities, and do not need to be carried out a specific number of times: 
+ Individuals who work in a high security psychiatric hospital
+ Individuals who manage, on a day-to-day basis, anyone who carries out activities with adults that are specifically defined as work with adults
+ Individuals whose role relates to a Care Quality Commission inspection function where the inspector has the opportunity for contact with adults in circumstances that are specifically defined as work with adults
+ Applications to assess –
+ local authority elected members where their roles relate to carrying out social services functions for adults in circumstances that are specifically defined as work with adults
+ chief executives of any local authority that has social services functions
+ directors of adult social services in England and Wales
+ charity trustee of a charity whose workers regularly carry out activities with adults that are specifically defined as work with adults
+ any person who needs to be registered under the Health and Social Care Act 2008
+ Should you wish to view the relevant legislation you can do so in the Work with adults legislation - GOV.UK 
+ 5. Links and contacts
+ See this webpage for more information on how to contact DBS -  Disclosure and Barring Service - GOV.UK 
+ 

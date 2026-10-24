@@ -1,0 +1,232 @@
+{
+  "_about": "Sources of every fee, rule and figure of the site (RECETTE §4). Fees are in fees.json, waits in performance.json and police-performance.json, roles in roles.json; this file lists the official pages they were read on, on retrieved_at. Every page cites its sources by these keys.",
+  "year": 2026,
+  "retrieved_at": "2026-10-24",
+  "valid_from": "2026-10-05",
+  "valid_to": "2027-10-04",
+  "rules": {
+    "basicMinAge": 16,
+    "basicDirectDays": 3,
+    "basicGuideDays": 14,
+    "standardEnhancedGuideWeeks": 8,
+    "umbrellaThreshold": 100,
+    "responsibleOrgThreshold": 1000,
+    "adultFirstDays": 2,
+    "filtering": {
+      "from": "2023-10-28",
+      "adultConvictionYears": 11,
+      "youthConvictionYears": 5.5,
+      "adultCautionYears": 6
+    },
+    "basicAddressYears": 5,
+    "updateRenewWindowDays": 30,
+    "applicationWithinDays": 28,
+    "vatStandardRate": 0.2
+  },
+  "sources": {
+    "si_2026_985": {
+      "url": "https://www.legislation.gov.uk/uksi/2026/985/made",
+      "label": {
+        "en": "legislation.gov.uk: The Police Act 1997 (Criminal Records) (Amendment) Regulations 2026, SI 2026/985"
+      }
+    },
+    "si_2024_1111": {
+      "url": "https://www.legislation.gov.uk/uksi/2024/1111/made",
+      "label": {
+        "en": "legislation.gov.uk: SI 2024/1111, the previous DBS fees"
+      }
+    },
+    "gov_fee_news": {
+      "url": "https://www.gov.uk/government/news/dbs-reduces-fees-for-checks-and-update-service-from-5-october-2026",
+      "label": {
+        "en": "GOV.UK: DBS reduces fees for checks and Update Service from 5 October 2026"
+      }
+    },
+    "gov_employer": {
+      "url": "https://www.gov.uk/dbs-check-applicant-criminal-record",
+      "label": {
+        "en": "GOV.UK: Check someone's criminal record (fees, Adult First, repeat checks)"
+      }
+    },
+    "gov_apply_role": {
+      "url": "https://www.gov.uk/criminal-record-checks-apply-role",
+      "label": {
+        "en": "GOV.UK: Criminal record checks when you apply for a role"
+      }
+    },
+    "gov_basic": {
+      "url": "https://www.gov.uk/request-copy-criminal-record",
+      "label": {
+        "en": "GOV.UK: Request a basic DBS check"
+      }
+    },
+    "gov_update": {
+      "url": "https://www.gov.uk/dbs-update-service",
+      "label": {
+        "en": "GOV.UK: DBS Update Service"
+      }
+    },
+    "gov_update_employer": {
+      "url": "https://www.gov.uk/government/publications/dbs-update-service-employer-guide",
+      "label": {
+        "en": "GOV.UK: DBS Update Service employer guide"
+      }
+    },
+    "gov_eligibility": {
+      "url": "https://www.gov.uk/government/collections/dbs-eligibility-guidance",
+      "label": {
+        "en": "GOV.UK: DBS eligibility guidance (updated 1 September 2026)"
+      }
+    },
+    "gov_elig_children_barred": {
+      "url": "https://www.gov.uk/government/publications/eligibility-for-enhanced-with-barred-list-dbs-checks-with-children/eligibility-for-enhanced-with-barred-list-dbs-checks-with-children",
+      "label": {
+        "en": "GOV.UK: Eligibility for Enhanced with Barred List DBS checks with children"
+      }
+    },
+    "gov_elig_children_enhanced": {
+      "url": "https://www.gov.uk/government/publications/work-with-children-enhanced-without-childrens-barred-list-check/eligibility-for-enhanced-dbs-check-child-workforce",
+      "label": {
+        "en": "GOV.UK: Work with children, enhanced without the children's barred list"
+      }
+    },
+    "gov_elig_adults_barred": {
+      "url": "https://www.gov.uk/government/publications/eligibility-for-enhanced-with-adults-barred-list-dbs-check/eligibility-for-enhanced-with-adults-barred-list-dbs-check",
+      "label": {
+        "en": "GOV.UK: Eligibility for Enhanced with Adults' Barred List DBS check"
+      }
+    },
+    "gov_elig_adults_enhanced": {
+      "url": "https://www.gov.uk/government/publications/work-with-adults-enhanced-without-adults-barred-list-checks/enhanced-dbs-checks-in-the-adult-workforce",
+      "label": {
+        "en": "GOV.UK: Work with adults, enhanced without the adults' barred list"
+      }
+    },
+    "gov_elig_standard": {
+      "url": "https://www.gov.uk/government/publications/eligibility-for-standard-dbs-checks/eligibility-for-standard-dbs-checks",
+      "label": {
+        "en": "GOV.UK: Eligibility for Standard DBS checks"
+      }
+    },
+    "gov_elig_other": {
+      "url": "https://www.gov.uk/government/publications/enhanced-dbs-checks-in-the-other-workforce/enhanced-dbs-checks-in-the-other-workforce",
+      "label": {
+        "en": "GOV.UK: Enhanced DBS checks in the 'Other' workforce"
+      }
+    },
+    "gov_self_employed": {
+      "url": "https://www.gov.uk/guidance/dbs-checks-for-self-employed-people-and-personal-employees",
+      "label": {
+        "en": "GOV.UK: DBS checks for self-employed people and personal employees"
+      }
+    },
+    "gov_filtering": {
+      "url": "https://www.gov.uk/government/publications/filtering-rules-for-criminal-record-check-certificates/new-filtering-rules-for-dbs-certificates-from-28-november-2020-onwards",
+      "label": {
+        "en": "GOV.UK: Filtering rules for DBS certificates (from 28 October 2023)"
+      }
+    },
+    "gov_dataset1": {
+      "url": "https://www.gov.uk/government/statistics/dbs-dataset-1-dbs-checks-the-dbs-update-service-and-disputes",
+      "label": {
+        "en": "GOV.UK: DBS dataset 1, checks, the Update Service and disputes"
+      }
+    },
+    "gov_umbrella": {
+      "url": "https://www.gov.uk/find-dbs-umbrella-body",
+      "label": {
+        "en": "GOV.UK: Find a DBS umbrella body"
+      }
+    },
+    "police_perf": {
+      "url": "https://www.careengland.org.uk/wp-content/uploads/2026/08/Police-Performance-Information-August-26.pdf",
+      "label": {
+        "en": "DBS Police Performance Information, August 2026 (relayed by Care England)"
+      }
+    },
+    "ds_fees": {
+      "url": "https://www.disclosure.gov.scot/disclosure-scotland-fees",
+      "label": {
+        "en": "Disclosure Scotland: fees"
+      }
+    },
+    "ds_q1": {
+      "url": "https://www.disclosure.gov.scot/news/2026/07/quarter-one-2026",
+      "label": {
+        "en": "Disclosure Scotland: quarter one 2026 (processing and social care waiver)"
+      }
+    },
+    "ds_basic": {
+      "url": "https://www.mygov.scot/basic-disclosure",
+      "label": {
+        "en": "mygov.scot: Basic disclosure (Level 1)"
+      }
+    },
+    "ds_pvg": {
+      "url": "https://www.mygov.scot/pvg-scheme",
+      "label": {
+        "en": "mygov.scot: The PVG scheme"
+      }
+    },
+    "ani_fees": {
+      "url": "https://www.nidirect.gov.uk/articles/costs-and-turnaround-times",
+      "label": {
+        "en": "nidirect: AccessNI costs and turnaround times"
+      }
+    },
+    "ani_home": {
+      "url": "https://www.nidirect.gov.uk/campaigns/accessni-criminal-record-checks",
+      "label": {
+        "en": "nidirect: AccessNI criminal record checks"
+      }
+    },
+    "vat_700": {
+      "url": "https://www.gov.uk/guidance/vat-guide-notice-700",
+      "label": {
+        "en": "HMRC: VAT guide (VAT Notice 700), section 25 on disbursements"
+      }
+    },
+    "vat_rates": {
+      "url": "https://www.gov.uk/vat-rates",
+      "label": {
+        "en": "GOV.UK: VAT rates"
+      }
+    },
+    "ogl": {
+      "url": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+      "label": {
+        "en": "The National Archives: Open Government Licence v3.0"
+      }
+    },
+    "gov_barring": {
+      "url": "https://www.gov.uk/guidance/making-barring-referrals-to-the-dbs",
+      "label": {
+        "en": "GOV.UK: Making barring referrals to DBS (updated 11 September 2026)"
+      }
+    },
+    "svga_s7": {
+      "url": "https://www.legislation.gov.uk/ukpga/2006/47/section/7",
+      "label": {
+        "en": "legislation.gov.uk: Safeguarding Vulnerable Groups Act 2006, sections 7 and 9 (offences)"
+      }
+    },
+    "ds_levels": {
+      "url": "https://www.mygov.scot/disclosure-types",
+      "label": {
+        "en": "mygov.scot: Disclosure levels"
+      }
+    },
+    "ani_using": {
+      "url": "https://www.nidirect.gov.uk/articles/using-criminal-record-check",
+      "label": {
+        "en": "nidirect: Using a criminal record check"
+      }
+    },
+    "ani_selfemp": {
+      "url": "https://www.nidirect.gov.uk/articles/checks-self-employed-or-personal-employees",
+      "label": {
+        "en": "nidirect: Checks for self-employed or personal employees"
+      }
+    }
+  }
+}

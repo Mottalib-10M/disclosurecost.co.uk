@@ -1,0 +1,22 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title={`Contact ${SITE_NAMES[lang]}: a fee, a level, the widget`} description="Write to Disclosure Cost when a DBS fee, a level of check or a waiting time looks wrong, or to put the DBS check finder on your own website. We cannot process applications." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contact</h1>
+    <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. A person reads every message.</p>
+    <h2>A fee or a level looks wrong</h2>
+    <p>Tell us the page and the figure. Fees change by regulation, usually once a year, and the eligibility guidance is revised from time to time; when the official text changes, we update the data file, add a test and date the change.</p>
+    <h2>What we cannot do</h2>
+    <p>We cannot apply for, track, chase or cancel a check, and we cannot tell you what your own record holds. Please do not send your name, date of birth, address, certificate number or any detail of a conviction. For an application, contact the organisation that started it, or DBS, Disclosure Scotland or AccessNI.</p>
+    <h2>Using the finder on your own site</h2>
+    <p>Schools, clubs, charities and councils can show the check finder in an iframe at no cost. The code is on the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

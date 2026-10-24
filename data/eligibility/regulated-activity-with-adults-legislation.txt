@@ -1,0 +1,80 @@
+https://www.gov.uk/government/publications/eligibility-for-enhanced-with-adults-barred-list-dbs-check/regulated-activity-with-adults-legislation 2026-09-01T08:47:00+01:00
+ 1. Introduction
+ This webpage sets out the legislation which underpins the guidance on the Enhanced with Adults Barred List eligibility webpage.
+ DBS have provided this to organisations to support them in their decision making. DBS may not be able to provide further context surrounding this wording.
+ This is not intended as legal advice. Organisations should seek professional guidance as needed.
+ 2. Specified Activities
+ Wording from the Police Act 1997 (Criminal Records) (no.2) Regulations 2009 regulation 6:
+ “(a) considering the applicant’s suitability to engage in any activity which is a regulated activity relating to vulnerable adults within the meaning of Part 2 of Schedule 4 to the Safeguarding Vulnerable Groups Act 2006” 
+ Regulated activity is work that a barred person must not do. Regulated activity with adults does not include any activity carried out in the course of family relationships, or personal, non-commercial relationships.
+ 2.1 Providing healthcare by, or under the direction or supervision of, a regulated healthcare professional.
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 2 paragraph 7:
+ (1)(a) the provision to an adult of health care by, or under the direction or supervision of, a health care professional
+ (2) Health care includes all forms of health care provided for individuals, whether relating to physical or mental health and also includes palliative care and procedures that are similar to forms of medical or surgical care but are not provided in connection with a medical condition.
+ (3) A health care professional is a person who is a member of a profession regulated by a body mentioned in section 25(3) of the National Health Service Reform and Health Care Professions Act 2002.
+ (3A) Any reference in this Part of this Schedule to health care provided by, or under the direction or supervision of, a health care professional includes a reference to first aid provided to an adult by any person acting on behalf of an organisation established for the purpose of providing first aid.
+ 2.2 Individuals who provide personal care to adults. This includes physically assisting adults, prompting and then supervising adults, or training, instructing or providing advice or guidance to adults on eating or drinking, going to the toilet, washing or bathing, dressing, oral care or care of the skin, hair or nails and this is done because of the adult’s age, illness or disability
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 2 paragraph 7:
+ (1)(b) the provision to an adult of relevant personal care
+ (3B) Relevant personal care means –
+ a) physical assistance, given to a person who is in need of it by reason of age, illness or disability, in connection with
+ (i) eating or drinking (including the administration of parenteral nutrition),
+ (ii) toileting (including in relation to the process of menstruation),
+ (iii) washing or bathing,
+ (iv)dressing,
+ (v) oral care, or
+ (vi)the care of skin, hair or nails,
+ b) the prompting, together with supervision, of a person who is in need of it by reason of age, illness or disability in relation to the performance of any of the activities listed in paragraph (a) where the person is unable to make a decision in relation to performing such an activity without such prompting and supervision, or c) any form of training, instruction, advice or guidance which –
+ (i) relates to the performance of any of the activities listed in paragraph (a),
+ -(ii) is given to a person who is in need of it by reason of age, illness or        disability, and
+ (iii) does not fall within paragraph (b).
+ 2.3 Individuals who are regulated social workers providing social work to adults who are clients or potential clients. This includes assessing or reviewing the need for health or social care services, and providing ongoing support to clients.
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 2 paragraph 7:
+ (1)(c) the provision by a social care worker of relevant social work to an adult who is a client or potential client
+ (3C) In relation to a vulnerable adult in England, relevant social work has the meaning given by section 55(4) of the Care Standards Act 2000 and social care worker means a person who is a social care worker by virtue of section 55(2)(a) of that Act.
+ (3CA) In relation to a vulnerable adult in Wales, relevant social work has the meaning given by section 79(4) of the Regulation and Inspection of Social Care (Wales) Act 2016, and social care worker means a person who is a social care worker by virtue of section 79(1)(a) of that Act.
+ This is clarified by the Department of Health (as was) factual note which specifies that the definition applies to ‘regulated’ social workers.
+ 2.4 Assisting an adult with the financial day-to-day running of their household relating to managing their cash, paying their bills and/or doing their shopping.
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 2 paragraph 7:
+ (1)(d) the provision of assistance in relation to general household matters to an adult who is in need of it by reason of age, illness or disability
+ (3D) Assistance in relation to general household matters is day to day assistance in relation to the running of the household of the person concerned where the assistance is the carrying out of one or more of the following activities on behalf of that person
+ a) managing the person’s cash
+ b) paying the person’s bills
+ c) shopping
+ 2.5 Individuals who provide assistance to adults in conducting their own affairs under any of the following arrangements; a lasting power of attorney is created , an enduring power of attorney is registered or applied for , the Court of Protection has made an order in relation to the making of decisions on the adult’s behalf , an independent mental health or mental capacity advocate is appointed , independent advocacy services are provided , a representative is appointed to receive benefits payments on the adult’s behalf
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 2 paragraph 7:
+ (1)(e) any relevant assistance in the conduct of an adult’s own affairs
+ (3E) Relevant assistance in the conduct of a person’s own affairs is anything done on behalf of the person by virtue of –
+ a) a lasting power of attorney created in respect of the person in accordance with section 9 of the Mental Capacity Act 2005,
+ b) an enduring power of attorney (within the meaning of Schedule 4 to        that Act) in respect of the person which is –
+ (i) registered in accordance with that Schedule, or
+ (ii) the subject of an application to be so registered,
+ c) an order made under section 16 of that Act by the Court of Protection in relation to the making of decisions on the person’s behalf,
+ d) the appointment of an independent mental health advocate or (as the case may be) an independent mental capacity advocate in respect of the person in pursuance of arrangements under section 130A of the Mental Health Act 1983 or section 35 of the Mental Capacity Act 2005,
+ e) the provision of independent advocacy services (within the meaning of section 248 of the National Health Service Act 2006 or section 187 of the National Health Service (Wales) Act 2006) in respect of the person, or
+ f) the appointment of a representative to receive payments on behalf of the person in pursuance of regulations made under the Social Security Administration Act 1992
+ 2.6 Individuals who convey adults to or from anywhere they would be receiving health care, personal care or social work.
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 2 paragraph 7:
+ (1)(f) the conveying by persons of a prescribed description in such circumstances as may be prescribed of adults who need to be conveyed by reason of age, illness or disability
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 2 paragraph 7
+ (1)(g) such activities—
+ (i) involving, or connected with, the provision of health care or relevant personal care to adults, and
+ (ii) not falling within any of the above paragraphs, as are of a prescribed description.
+ The Department of Health (as was) factual note explains that this conveying does not include taxi or private hire drivers.
+ 2.7 Individuals who manage or supervise anyone on a day-to-day basis who carries out regulated activity with adults.
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 2 paragraph 7
+ (5) Any activity which consists in or involves on a regular basis the day to day management or supervision of a person carrying out an activity mentioned in sub-paragraph (1) is a regulated activity relating to vulnerable adults
+ 3. Welsh roles
+ 3.1 Individuals carrying out inspection functions in Wales. This is where there is the opportunity for contact with adults receiving the services and the inspections relate to social services, care, treatment or therapy provided by the following:
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 2 paragraph 7:
+ (6) The exercise of an inspection function of the Welsh Ministers so far as the function gives the person exercising the function the opportunity, in consequence of anything the person is permitted or required to do in the exercise of that function, to have contact with vulnerable adults, is a regulated activity relating to vulnerable adults.
+ (7) An inspection function is a function relating to the inspection of–
+ c) an agency in relation to which such a requirement arises,
+ d) a person to whom Part 2 of that Act applies in pursuance of regulations        under section 42 of that Act,
+ e) an NHS body within the meaning of section 148 of the Health and Social       Care (Community Health and Standards) Act 2003, or
+ f) any person, other than a local authority, providing Welsh local authority                  social services within the meaning of that section, in so far as the inspection         relates to social services, care, treatment or therapy provided for vulnerable         adults by the establishment, agency, person or body.
+ (8) In sub-paragraph (7)(e) the reference to an NHS body includes a reference to any person who provides, or is to provide, health care for the body (wherever the health care is or is to be provided).
+ 3.2 The Commissioner for older people in Wales or the deputy Commissioner for older people in Wales
+ Wording from the Safeguarding Vulnerable Groups Act 2006 Schedule 4 Part 2 paragraph 7:
+ (9) The exercise of a function of the Commissioner for older people in Wales or the deputy Commissioner for older people in Wales, is a regulated activity relating to vulnerable adults
+ 
