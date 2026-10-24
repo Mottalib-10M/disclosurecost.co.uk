@@ -17,7 +17,7 @@ const dd = (n: number) => `${formatNumber(n, Number.isInteger(n) ? 0 : 1)} day${
 const ROLE_OPTS = ROLES.roles.map((r) => ({ value: r.id, label: r.label }));
 const NAT_OPTS = D.NATIONS.map((n) => ({ value: n, label: D.NATION_LABEL[n] }));
 const YES_NO = [{ value: '0', label: 'No, paid role' }, { value: '1', label: 'Yes, unpaid volunteer' }];
-const VAT_OPTS = [{ value: '0', label: 'VAT included or none' }, { value: '1', label: 'Before VAT (add 20 %)' }];
+const VAT_OPTS = [{ value: '0', label: 'VAT included or none' }, { value: '1', label: 'Before VAT (add 20%)' }];
 
 interface Props { role?: string; nation?: D.Nation; idPrefix?: string; methodHref?: string; pages?: Record<string, string> }
 
