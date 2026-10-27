@@ -1,6 +1,6 @@
 {
  "readOn": "2026-10-24",
- "checkedOn": "2026-10-24",
+ "checkedOn": "2026-10-27",
  "licence": "Crown copyright, Open Government Licence v3.0 (GOV.UK: « Most content on GOV.UK is subject to Crown copyright protection and is published under the Open Government Licence (OGL) » ; legislation.gov.uk: « All content is available under the Open Government Licence v3.0 except where otherwise stated » ; disclosure.gov.scot: « All content is available under the Open Government Licence v3.0, except for graphic assets and where otherwise stated » ; nidirect: « You may use and re-use the information featured on this website (not including logos) free of charge in any format or medium, under the terms of the Open Government Licence »)",
  "englandWales": {
   "body": "Disclosure and Barring Service",
@@ -142,7 +142,7 @@
   ],
   "volunteerRule": "Free for a qualifying volunteer; charged if the volunteer works directly for a statutory organisation or for a non-profit delivering statutory services under contract",
   "turnaround": {
-   "week": "2026-10-19",
+   "week": "2026-10-26",
    "averageDays": {
     "basic": 3,
     "standard": 3,
@@ -154,7 +154,7 @@
     "standard": "99% within 7 days",
     "enhanced": "70% within 10 days, 95% within 21 days, 98% within 28 days"
    },
-   "readOn": "2026-10-24"
+   "readOn": "2026-10-27"
   }
  },
  "vatRate": 0.2,
